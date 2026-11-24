@@ -79,7 +79,7 @@
         {
           "titulo": "HeyGen",
           "texto": [
-            "Avatar V, presentado en abr/2026: identidad creada a partir de unos 15 s de grabación, separando identidad de apariencia; en may/2026, dirección de movimiento en lenguaje natural (investigación §3). Es el estudio que usan los motores de INEMA, mediante la suscripción."
+            "Avatar V, presentado en abr/2026: identidad creada a partir de unos 15 s de grabación, separando identidad de apariencia; en may/2026, dirección de movimiento en lenguaje natural (investigación §3). Es el estudio que usan los motores de ARCKHÉ, mediante la suscripción."
           ]
         },
         {
@@ -91,13 +91,13 @@
         {
           "titulo": "Lip sync",
           "texto": [
-            "En los generadores con audio nativo, la boca sale junto con el habla. En los avatares, el estudio sincroniza a partir del audio o del texto. Generadores y audio nativo: <a href=\"https://inematds.github.io/formacao-cinema-ia-geracao-v72/es/\">curso 1</a>."
+            "En los generadores con audio nativo, la boca sale junto con el habla. En los avatares, el estudio sincroniza a partir del audio o del texto. Generadores y audio nativo: <a href=\"https://linnoff88-dev.github.io/ 1</a>."
           ]
         },
         {
           "titulo": "Etiqueta y ley",
           "texto": [
-            "Sin avatar tampoco hay problema: voz local y escenas, como la demostración de la clase 3 y el curso 3. La etiqueta de contenido generado por IA, el derecho de imagen y voz y el AI Act están en el <a href=\"https://inematds.github.io/formacao-cinema-ia-producao-v72/es/aulas/etica/\">curso 2, clase 7</a>. Aquí el formulario de consentimiento solo exige que la etiqueta exista y mencione IA."
+            "Sin avatar tampoco hay problema: voz local y escenas, como la demostración de la clase 3 y el curso 3. La etiqueta de contenido generado por IA, el derecho de imagen y voz y el AI Act están en el <a href=\"https://linnoff88-dev.github.io/ 2, clase 7</a>. Aquí el formulario de consentimiento solo exige que la etiqueta exista y mencione IA."
           ]
         }
       ]
@@ -115,7 +115,7 @@
         {
           "rot": "Terminal · verificar el formulario de consentimiento",
           "icone": "terminal",
-          "conteudo": "K=~/projetos/formacao-cinema-ia-fabrica-v72/kit\npython3 \"$K/conferir-consentimento.py\" \"$K/exemplos/a7-termo/termo.md\"; echo \"saída: $?\"\npython3 \"$K/conferir-consentimento.py\" \"$K/exemplos/a7-termo/termo-sem-rotulo.md\"; echo \"saída: $?\""
+          "conteudo": "K=~/projetos/formacao-cARCKHÉ-ia-fabrica-v72/kit\npython3 \"$K/conferir-consentimento.py\" \"$K/exemplos/a7-termo/termo.md\"; echo \"saída: $?\"\npython3 \"$K/conferir-consentimento.py\" \"$K/exemplos/a7-termo/termo-sem-rotulo.md\"; echo \"saída: $?\""
         }
       ],
       "saida": {
@@ -141,7 +141,7 @@
         {
           "rot": "Terminal · compuerta abierta y cerrada",
           "icone": "terminal",
-          "conteudo": "K=~/projetos/formacao-cinema-ia-fabrica-v72/kit; X=$K/exemplos/a7-termo\nbash \"$K/portao-avatar.sh\" \"$X/termo.md\" \"$X/roteiro.txt\"; echo \"saída: $?\"\nbash \"$K/portao-avatar.sh\" \"$X/termo-sem-rotulo.md\" \"$X/roteiro.txt\"; echo \"saída: $?\""
+          "conteudo": "K=~/projetos/formacao-cARCKHÉ-ia-fabrica-v72/kit; X=$K/exemplos/a7-termo\nbash \"$K/portao-avatar.sh\" \"$X/termo.md\" \"$X/roteiro.txt\"; echo \"saída: $?\"\nbash \"$K/portao-avatar.sh\" \"$X/termo-sem-rotulo.md\" \"$X/roteiro.txt\"; echo \"saída: $?\""
         }
       ],
       "saida": {
@@ -171,14 +171,14 @@
           "titulo": "E2 · Tu formulario de consentimiento",
           "min": "15 min",
           "texto": "Escribe <code>~/meu-termo.md</code> con los siete campos, con tus datos y la vigencia que tenga sentido para ti.",
-          "pronto": "<code>python3 ~/projetos/formacao-cinema-ia-fabrica-v72/kit/conferir-consentimento.py ~/meu-termo.md; echo \"saída: $?\"</code> → <code>OK: termo de [tu nombre] · 7 campos · válido até …</code> y <code>saída: 0</code>."
+          "pronto": "<code>python3 ~/projetos/formacao-cARCKHÉ-ia-fabrica-v72/kit/conferir-consentimento.py ~/meu-termo.md; echo \"saída: $?\"</code> → <code>OK: termo de [tu nombre] · 7 campos · válido até …</code> y <code>saída: 0</code>."
         },
         {
           "id": "e3",
           "titulo": "E3 · Compuerta en tu guion",
           "min": "5 min",
           "texto": "Ejecuta la compuerta con tu formulario de consentimiento y un guion tuyo en texto.",
-          "pronto": "<code>bash ~/projetos/formacao-cinema-ia-fabrica-v72/kit/portao-avatar.sh ~/meu-termo.md [tu-guion.txt]; echo \"saída: $?\"</code> → <code>PORTÃO ABERTO</code> y <code>saída: 0</code>."
+          "pronto": "<code>bash ~/projetos/formacao-cARCKHÉ-ia-fabrica-v72/kit/portao-avatar.sh ~/meu-termo.md [tu-guion.txt]; echo \"saída: $?\"</code> → <code>PORTÃO ABERTO</code> y <code>saída: 0</code>."
         }
       ]
     },
@@ -254,7 +254,7 @@
         },
         {
           "t": "Curso 2, clase 7: ética y ley (etiqueta, imagen, voz)",
-          "href": "https://inematds.github.io/formacao-cinema-ia-producao-v72/es/aulas/etica/",
+          "href": "https://linnoff88-dev.github.io/
           "icone": "escudo"
         },
         {

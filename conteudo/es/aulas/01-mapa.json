@@ -5,7 +5,7 @@
   "titulo": "El mapa de la fábrica: de lo que tienes al motor correcto",
   "titulo_curto": "El mapa de la fábrica",
   "minutos": 12,
-  "lead": "INEMA tiene un motor de video para cada caso: explicativo, demostración, documental, short, publicación. Equivocarte de motor cuesta horas. En esta clase conviertes la tabla del área Vídeos en un comando que responde cuál usar, y preparas la máquina para las próximas siete clases.",
+  "lead": "ARCKHÉ tiene un motor de video para cada caso: explicativo, demostración, documental, short, publicación. Equivocarte de motor cuesta horas. En esta clase conviertes la tabla del área Vídeos en un comando que responde cuál usar, y preparas la máquina para las próximas siete clases.",
   "objetivo": "elegir el motor correcto para lo que tienes y quieres, con la tabla del área Vídeos convertida en comando.",
   "competencias": [
     "escolher-motor",
@@ -53,7 +53,7 @@
           "icone": "chip",
           "titulo": "Motor",
           "sub": "el sistema",
-          "detalhe": "Explicavideos, video-demonstrativo, docflow, refazvideo, MakeShorts, cardshorts, forja-reel, yt-pubx. Cada uno es un repositorio público de INEMA en GitHub."
+          "detalhe": "Explicavideos, video-demonstrativo, docflow, refazvideo, MakeShorts, cardshorts, forja-reel, yt-pubx. Cada uno es un repositorio público de ARCKHÉ en GitHub."
         },
         {
           "icone": "portao",
@@ -69,7 +69,7 @@
           "detalhe": "El comando de la lección indica en qué lección de este curso aparece el motor, o qué curso hermano es dueño del tema."
         }
       ],
-      "legenda": "La tabla es la del área Vídeos de INEMA (eventos.inema.pro/videos/, sección \"Por dónde empezar\"), leída el 19/10/2026."
+      "legenda": "La tabla es la del área Vídeos de ARCKHÉ (eventos.ARCKHÉ.pro/videos/, sección \"Por dónde empezar\"), leída el 19/10/2026."
     },
     {
       "tipo": "passos",
@@ -111,7 +111,7 @@
         {
           "rot": "Una vez · clonar el curso",
           "icone": "terminal",
-          "conteudo": "mkdir -p ~/projetos && cd ~/projetos\ngit clone https://github.com/inematds/formacao-cinema-ia-fabrica-v72.git"
+          "conteudo": "mkdir -p ~/projetos && cd ~/projetos\ngit clone https://github.com/linnoff88-dev/formacao-cARCKHÉ-ia-fabrica-v72.git"
         },
         {
           "rot": "Terminal · verificar el entorno",
@@ -141,7 +141,7 @@
         {
           "rot": "Terminal · preguntarle al mapa",
           "icone": "terminal",
-          "conteudo": "K=~/projetos/formacao-cinema-ia-fabrica-v72/kit\npython3 \"$K/qual-motor.py\" --lista | tail -3\npython3 \"$K/qual-motor.py\" tema short; echo \"saída: $?\"\npython3 \"$K/qual-motor.py\" tema podcast; echo \"saída: $?\""
+          "conteudo": "K=~/projetos/formacao-cARCKHÉ-ia-fabrica-v72/kit\npython3 \"$K/qual-motor.py\" --lista | tail -3\npython3 \"$K/qual-motor.py\" tema short; echo \"saída: $?\"\npython3 \"$K/qual-motor.py\" tema podcast; echo \"saída: $?\""
         }
       ],
       "saida": {
@@ -168,13 +168,13 @@
         {
           "titulo": "En los hermanos",
           "texto": [
-            "Película con fotos y cámara 2.5D y anuncio UGC: <a href=\"https://inematds.github.io/formacao-cinema-ia-producao-v72/es/\">curso 2</a>. Película de la marca a partir del sitio web: curso 5. HyperFrames y Remotion por dentro: curso 3."
+            "Película con fotos y cámara 2.5D y anuncio UGC: <a href=\"https://linnoff88-dev.github.io/ 2</a>. Película de la marca a partir del sitio web: curso 5. HyperFrames y Remotion por dentro: curso 3."
           ]
         },
         {
           "titulo": "En otra formación",
           "texto": [
-            "El reel en 7 etapas, la cinta de canal y la agenda de publicación son de la formación Del chat al agente: <a href=\"https://inematds.github.io/do-chat-ao-agente-redes-v72/es/\">curso de redes en automático</a>."
+            "El reel en 7 etapas, la cinta de canal y la agenda de publicación son de la formación Del chat al agente: <a href=\"https://linnoff88-dev.github.io/ de redes en automático</a>."
           ]
         }
       ]
@@ -203,7 +203,7 @@
           "titulo": "E3 · Tu caso",
           "min": "5 min",
           "texto": "Piensa en el próximo video que necesitas hacer. Encuentra su línea con <code>--lista</code> y pregúntale al mapa.",
-          "pronto": "<code>python3 ~/projetos/formacao-cinema-ia-fabrica-v72/kit/qual-motor.py [tengo] [quiero]; echo \"saída: $?\"</code> → una línea <code>Use: …</code> y <code>saída: 0</code>."
+          "pronto": "<code>python3 ~/projetos/formacao-cARCKHÉ-ia-fabrica-v72/kit/qual-motor.py [tengo] [quiero]; echo \"saída: $?\"</code> → una línea <code>Use: …</code> y <code>saída: 0</code>."
         }
       ]
     },
@@ -285,18 +285,18 @@
       "titulo": "Para ir más allá",
       "links": [
         {
-          "t": "Área Vídeos de INEMA: la tabla \"Por dónde empezar\"",
-          "href": "https://eventos.inema.pro/videos/",
+          "t": "Área Vídeos de ARCKHÉ: la tabla \"Por dónde empezar\"",
+          "href": "https://eventos.ARCKHÉ.pro/videos/",
           "icone": "video"
         },
         {
           "t": "El kit de este curso en GitHub",
-          "href": "https://github.com/inematds/formacao-cinema-ia-fabrica-v72/tree/main/kit",
+          "href": "https://github.com/linnoff88-dev/formacao-cARCKHÉ-ia-fabrica-v72/tree/main/kit",
           "icone": "git"
         },
         {
           "t": "Curso 3: Motion por código (HyperFrames y Remotion)",
-          "href": "https://inematds.github.io/formacao-cinema-ia-motion-v72/es/",
+          "href": "https://linnoff88-dev.github.io/
           "icone": "camadas"
         }
       ]

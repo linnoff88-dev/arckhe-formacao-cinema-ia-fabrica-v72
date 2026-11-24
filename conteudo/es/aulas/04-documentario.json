@@ -59,7 +59,7 @@
           "icone": "megafone",
           "titulo": "Narrar y montar",
           "sub": "local",
-          "detalhe": "Una narración por escena con la voz de inemavox (TTS local) y el montaje en ffmpeg: tiempo, transición, fundidos, ambiente y música."
+          "detalhe": "Una narración por escena con la voz de ARCKHÉvox (TTS local) y el montaje en ffmpeg: tiempo, transición, fundidos, ambiente y música."
         },
         {
           "icone": "check",
@@ -79,7 +79,7 @@
         {
           "rot": "Terminal · leer docflow",
           "icone": "terminal",
-          "conteudo": "E=${TMPDIR:-/tmp}/ensaio-fabrica/a4; rm -rf \"$E\"; mkdir -p \"$E\"; cd \"$E\"\ngit clone -q https://github.com/inematds/docflow.git && cd docflow && git checkout -q f1ed75e\n./docflow --version\n./docflow estilos | head -4\ngrep -E \"^(slug|estilo|duracao_total|duracao_cena|formato|motor|voz):\" temas/egito.yaml"
+          "conteudo": "E=${TMPDIR:-/tmp}/ensaio-fabrica/a4; rm -rf \"$E\"; mkdir -p \"$E\"; cd \"$E\"\ngit clone -q https://github.com/linnoff88-dev/docflow.git && cd docflow && git checkout -q f1ed75e\n./docflow --version\n./docflow estilos | head -4\ngrep -E \"^(slug|estilo|duracao_total|duracao_cena|formato|motor|voz):\" temas/egito.yaml"
         }
       ],
       "saida": {
@@ -87,7 +87,7 @@
         "abas": [
           {
             "rot": "Salida capturada (19/10/2026)",
-            "html": "<pre>0.8.0\ndocflow 0.8.0 · estilos (use `estilo: &lt;nome&gt;` no tema)\n\n  documentario\n    Documentário narrado com cenas geradas por IA (imagem -&gt; vídeo), ritmo calmo.\nslug: egito-antigo\nestilo: \"realistic cinematic documentary, natural golden light, 35mm film look\"\nduracao_total: 60\nduracao_cena: 10\nformato: \"16:9\"\nmotor: agnes          # flow | agnes | local\nvoz: nei              # voz do inemavox (chatterbox): nei, nei2, bella...</pre><p>El motor y la voz quedan en el tema, no en el código. Atención: <code>voz: nei</code> es la voz clonada del propio Nei, usada con su consentimiento. En tu copia, cámbiala por una voz de banco o por la tuya, con formulario de consentimiento (clase 7). La duración total dividida por la duración de la escena da el número de escenas (60 ÷ 10 = 6).</p>"
+            "html": "<pre>0.8.0\ndocflow 0.8.0 · estilos (use `estilo: &lt;nome&gt;` no tema)\n\n  documentario\n    Documentário narrado com cenas geradas por IA (imagem -&gt; vídeo), ritmo calmo.\nslug: egito-antigo\nestilo: \"realistic cARCKHÉtic documentary, natural golden light, 35mm film look\"\nduracao_total: 60\nduracao_cena: 10\nformato: \"16:9\"\nmotor: agnes          # flow | agnes | local\nvoz: nei              # voz do ARCKHÉvox (chatterbox): nei, nei2, bella...</pre><p>El motor y la voz quedan en el tema, no en el código. Atención: <code>voz: nei</code> es la voz clonada del propio Nei, usada con su consentimiento. En tu copia, cámbiala por una voz de banco o por la tuya, con formulario de consentimiento (clase 7). La duración total dividida por la duración de la escena da el número de escenas (60 ÷ 10 = 6).</p>"
           },
           {
             "rot": "Cuidado con publicar",
@@ -110,7 +110,7 @@
         {
           "rot": "Terminal · validar el guion visual",
           "icone": "terminal",
-          "conteudo": "E=${TMPDIR:-/tmp}/ensaio-fabrica/a4; cd \"$E\"\ngit clone -q https://github.com/inematds/refazvideo.git && cd refazvideo && git checkout -q e1f369e\ncat VERSION\nX=exemplos/decisions-jev\npython3 ferramentas/validar_visual.py $X/roteiro-pt.json $X/pt-b01.json $X/pt-b02.json; echo \"saída: $?\""
+          "conteudo": "E=${TMPDIR:-/tmp}/ensaio-fabrica/a4; cd \"$E\"\ngit clone -q https://github.com/linnoff88-dev/refazvideo.git && cd refazvideo && git checkout -q e1f369e\ncat VERSION\nX=exemplos/decisions-jev\npython3 ferramentas/validar_visual.py $X/roteiro-pt.json $X/pt-b01.json $X/pt-b02.json; echo \"saída: $?\""
         }
       ],
       "saida": {
@@ -158,7 +158,7 @@
         {
           "titulo": "Rostro cubierto",
           "texto": [
-            "El rostro del presentador original nunca aparece: cada captura se revisa y se cubre con <code>preparar_print.py --cobrir</code>. Derecho de imagen y licencia de material ajeno: <a href=\"https://inematds.github.io/formacao-cinema-ia-producao-v72/es/aulas/etica/\">curso 2, clase 7</a>."
+            "El rostro del presentador original nunca aparece: cada captura se revisa y se cubre con <code>preparar_print.py --cobrir</code>. Derecho de imagen y licencia de material ajeno: <a href=\"https://linnoff88-dev.github.io/ 2, clase 7</a>."
           ]
         },
         {
@@ -270,17 +270,17 @@
       "links": [
         {
           "t": "docflow: guía de uso",
-          "href": "https://inematds.github.io/docflow/guia/",
+          "href": "https://linnoff88-dev.github.io/
           "icone": "video"
         },
         {
           "t": "refazvideo: guía de uso",
-          "href": "https://inematds.github.io/refazvideo/guia/",
+          "href": "https://linnoff88-dev.github.io/
           "icone": "video"
         },
         {
           "t": "Un video hecho con el refazvideo: AI harness, en el reproductor",
-          "href": "https://inematds.github.io/ai-harness/videos/",
+          "href": "https://linnoff88-dev.github.io/
           "icone": "play"
         }
       ]

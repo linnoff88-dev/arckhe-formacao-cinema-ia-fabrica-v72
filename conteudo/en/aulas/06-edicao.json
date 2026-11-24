@@ -79,7 +79,7 @@
         {
           "rot": "Terminal · open forja-reel",
           "icone": "terminal",
-          "conteudo": "E=${TMPDIR:-/tmp}/ensaio-fabrica/a6; rm -rf \"$E\"; mkdir -p \"$E\"; cd \"$E\"\ngit clone -q https://github.com/inematds/videos-edit-cria.git && git -C videos-edit-cria checkout -q d9a5137\nunzip -q videos-edit-cria/download/forja-reel.skill -d skill\nls skill/forja-reel/references skill/forja-reel/assets/motor-scripts"
+          "conteudo": "E=${TMPDIR:-/tmp}/ensaio-fabrica/a6; rm -rf \"$E\"; mkdir -p \"$E\"; cd \"$E\"\ngit clone -q https://github.com/linnoff88-dev/videos-edit-cria.git && git -C videos-edit-cria checkout -q d9a5137\nunzip -q videos-edit-cria/download/forja-reel.skill -d skill\nls skill/forja-reel/references skill/forja-reel/assets/motor-scripts"
         }
       ],
       "saida": {
@@ -104,7 +104,7 @@
         {
           "rot": "Terminal · check the rhythm",
           "icone": "terminal",
-          "conteudo": "K=~/projetos/formacao-cinema-ia-fabrica-v72/kit\ncd ${TMPDIR:-/tmp}/ensaio-fabrica/a6; L=skill/forja-reel/assets/motor-scripts/lint-timeline.py\npython3 $L \"$K/exemplos/a6-ritmo/ritmo-ok.html\" | grep -E \"^Duração|ERROR\"; echo \"saída: ${PIPESTATUS[0]}\"\npython3 $L \"$K/exemplos/a6-ritmo/ritmo-buraco.html\" | grep -E \"^Duração|ERROR\"; echo \"saída: ${PIPESTATUS[0]}\""
+          "conteudo": "K=~/projetos/formacao-cARCKHÉ-ia-fabrica-v72/kit\ncd ${TMPDIR:-/tmp}/ensaio-fabrica/a6; L=skill/forja-reel/assets/motor-scripts/lint-timeline.py\npython3 $L \"$K/exemplos/a6-ritmo/ritmo-ok.html\" | grep -E \"^Duração|ERROR\"; echo \"saída: ${PIPESTATUS[0]}\"\npython3 $L \"$K/exemplos/a6-ritmo/ritmo-buraco.html\" | grep -E \"^Duração|ERROR\"; echo \"saída: ${PIPESTATUS[0]}\""
         }
       ],
       "saida": {
@@ -224,17 +224,17 @@
       "links": [
         {
           "t": "Forja Reel: user guide",
-          "href": "https://inematds.github.io/videos-edit-cria/guia/",
+          "href": "https://linnoff88-dev.github.io/
           "icone": "video"
         },
         {
           "t": "Old course: Forja Reel, build your reel editor",
-          "href": "https://inematds.github.io/videos-edit-curso/",
+          "href": "https://linnoff88-dev.github.io/
           "icone": "lista"
         },
         {
           "t": "Course 3: GSAP timeline and motion libraries",
-          "href": "https://inematds.github.io/formacao-cinema-ia-motion-v72/en/",
+          "href": "https://linnoff88-dev.github.io/
           "icone": "camadas"
         }
       ]

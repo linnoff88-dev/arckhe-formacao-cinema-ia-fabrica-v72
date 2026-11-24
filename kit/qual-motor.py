@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
-"""qual-motor.py — o mapa da fábrica: do que você TEM e do que QUER ao motor do INEMA.
+"""qual-motor.py — o mapa da fábrica: do que você TEM e do que QUER ao motor do ARCKHÉ.
 
-A tabela é a da área Vídeos do INEMA (eventos.inema.pro/videos/, seção "Por onde começar", lida em 19/10/2026).
+A tabela é a da área Vídeos do ARCKHÉ (eventos.ARCKHÉ.pro/videos/, seção "Por onde começar", lida em 19/10/2026).
 A coluna "onde aprender" diz em que aula deste curso (ou em que curso irmão) o motor aparece.
 
 Uso:  python3 qual-motor.py --lista              # a tabela inteira
@@ -18,7 +18,7 @@ MAPA = [
     ("video-ref", "versao", "A sua versão em português, com o seu avatar", "refazvideo", "aula 4"),
     ("link-pagina", "editavel", "Vídeo editável com voz em português", "Content2Video ou videoprodutor", "fora deste curso (guia da área Vídeos)"),
     ("link-app", "demo", "Demonstração narrada, clique a clique", "video-demonstrativo", "aula 3"),
-    ("curso", "aulas", "Um vídeo por trilha ou por aula", "videos-cursos-inema", "fora deste curso (guia da área Vídeos)"),
+    ("curso", "aulas", "Um vídeo por trilha ou por aula", "videos-cursos-ARCKHÉ", "fora deste curso (guia da área Vídeos)"),
     ("tema", "short", "Short ou reel 9:16 com gancho", "MakeShorts ou cardshorts", "aula 5"),
     ("link-reel", "comentario", "O seu reel comentando o original", "reelcomenta", "fora deste curso (guia da área Vídeos)"),
     ("video-longo", "corte", "Um corte curto que faz sentido", "otimizevideo", "fora deste curso (guia da área Vídeos)"),

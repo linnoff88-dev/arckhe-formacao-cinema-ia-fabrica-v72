@@ -30,7 +30,7 @@
       "t": "HeyGen's Avatar V as a dated example (Apr/2026), not as a fixed step"
     }
   ],
-  "hero_alt": "A recording corner with a cinema camera on a tripod pointed at an empty chair in front of a gray backdrop, and a consent form with illegible text on the table.",
+  "hero_alt": "A recording corner with a cARCKHÉ camera on a tripod pointed at an empty chair in front of a gray backdrop, and a consent form with illegible text on the table.",
   "secoes": [
     {
       "tipo": "diagrama",
@@ -79,7 +79,7 @@
         {
           "titulo": "HeyGen",
           "texto": [
-            "Avatar V, introduced in Apr/2026: identity created from about 15 s of footage, separating identity from appearance; in May/2026, motion direction in natural language (research §3). It's the studio INEMA's engines use, through the subscription."
+            "Avatar V, introduced in Apr/2026: identity created from about 15 s of footage, separating identity from appearance; in May/2026, motion direction in natural language (research §3). It's the studio ARCKHÉ's engines use, through the subscription."
           ]
         },
         {
@@ -91,13 +91,13 @@
         {
           "titulo": "Lip sync",
           "texto": [
-            "In generators with native audio, the mouth comes out together with the speech. In avatars, the studio syncs from the audio or from the text. Generators and native audio: <a href=\"https://inematds.github.io/formacao-cinema-ia-geracao-v72/en/\">course 1</a>."
+            "In generators with native audio, the mouth comes out together with the speech. In avatars, the studio syncs from the audio or from the text. Generators and native audio: <a href=\"https://linnoff88-dev.github.io/ 1</a>."
           ]
         },
         {
           "titulo": "Label and law",
           "texto": [
-            "It also works with no avatar at all: local voice and scenes, like the demo in lesson 3 and course 3. The AI-generated content label, image and voice rights, and the AI Act are covered in <a href=\"https://inematds.github.io/formacao-cinema-ia-producao-v72/en/aulas/etica/\">course 2, lesson 7</a>. Here the consent form only requires that the label exists and mentions AI."
+            "It also works with no avatar at all: local voice and scenes, like the demo in lesson 3 and course 3. The AI-generated content label, image and voice rights, and the AI Act are covered in <a href=\"https://linnoff88-dev.github.io/ 2, lesson 7</a>. Here the consent form only requires that the label exists and mentions AI."
           ]
         }
       ]
@@ -115,7 +115,7 @@
         {
           "rot": "Terminal · check the consent form",
           "icone": "terminal",
-          "conteudo": "K=~/projetos/formacao-cinema-ia-fabrica-v72/kit\npython3 \"$K/conferir-consentimento.py\" \"$K/exemplos/a7-termo/termo.md\"; echo \"saída: $?\"\npython3 \"$K/conferir-consentimento.py\" \"$K/exemplos/a7-termo/termo-sem-rotulo.md\"; echo \"saída: $?\""
+          "conteudo": "K=~/projetos/formacao-cARCKHÉ-ia-fabrica-v72/kit\npython3 \"$K/conferir-consentimento.py\" \"$K/exemplos/a7-termo/termo.md\"; echo \"saída: $?\"\npython3 \"$K/conferir-consentimento.py\" \"$K/exemplos/a7-termo/termo-sem-rotulo.md\"; echo \"saída: $?\""
         }
       ],
       "saida": {
@@ -141,7 +141,7 @@
         {
           "rot": "Terminal · gate open and closed",
           "icone": "terminal",
-          "conteudo": "K=~/projetos/formacao-cinema-ia-fabrica-v72/kit; X=$K/exemplos/a7-termo\nbash \"$K/portao-avatar.sh\" \"$X/termo.md\" \"$X/roteiro.txt\"; echo \"saída: $?\"\nbash \"$K/portao-avatar.sh\" \"$X/termo-sem-rotulo.md\" \"$X/roteiro.txt\"; echo \"saída: $?\""
+          "conteudo": "K=~/projetos/formacao-cARCKHÉ-ia-fabrica-v72/kit; X=$K/exemplos/a7-termo\nbash \"$K/portao-avatar.sh\" \"$X/termo.md\" \"$X/roteiro.txt\"; echo \"saída: $?\"\nbash \"$K/portao-avatar.sh\" \"$X/termo-sem-rotulo.md\" \"$X/roteiro.txt\"; echo \"saída: $?\""
         }
       ],
       "saida": {
@@ -171,14 +171,14 @@
           "titulo": "E2 · Your consent form",
           "min": "15 min",
           "texto": "Write <code>~/meu-termo.md</code> with the seven fields, using your own details and whatever expiration date makes sense for you.",
-          "pronto": "<code>python3 ~/projetos/formacao-cinema-ia-fabrica-v72/kit/conferir-consentimento.py ~/meu-termo.md; echo \"saída: $?\"</code> → <code>OK: termo de [your name] · 7 campos · válido até …</code> and <code>saída: 0</code>."
+          "pronto": "<code>python3 ~/projetos/formacao-cARCKHÉ-ia-fabrica-v72/kit/conferir-consentimento.py ~/meu-termo.md; echo \"saída: $?\"</code> → <code>OK: termo de [your name] · 7 campos · válido até …</code> and <code>saída: 0</code>."
         },
         {
           "id": "e3",
           "titulo": "E3 · Gate on your script",
           "min": "5 min",
           "texto": "Run the gate with your consent form and one of your own scripts as a text file.",
-          "pronto": "<code>bash ~/projetos/formacao-cinema-ia-fabrica-v72/kit/portao-avatar.sh ~/meu-termo.md [your-script.txt]; echo \"saída: $?\"</code> → <code>PORTÃO ABERTO</code> and <code>saída: 0</code>."
+          "pronto": "<code>bash ~/projetos/formacao-cARCKHÉ-ia-fabrica-v72/kit/portao-avatar.sh ~/meu-termo.md [your-script.txt]; echo \"saída: $?\"</code> → <code>PORTÃO ABERTO</code> and <code>saída: 0</code>."
         }
       ]
     },
@@ -254,7 +254,7 @@
         },
         {
           "t": "Course 2, lesson 7: ethics and law (label, image, voice)",
-          "href": "https://inematds.github.io/formacao-cinema-ia-producao-v72/en/aulas/etica/",
+          "href": "https://linnoff88-dev.github.io/
           "icone": "escudo"
         },
         {

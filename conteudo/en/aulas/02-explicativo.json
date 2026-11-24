@@ -80,7 +80,7 @@
         {
           "rot": "Terminal · explicavideos tests",
           "icone": "terminal",
-          "conteudo": "E=${TMPDIR:-/tmp}/ensaio-fabrica/a2; rm -rf \"$E\"; mkdir -p \"$E\"; cd \"$E\"\ngit clone -q https://github.com/inematds/explicavideos.git && cd explicavideos\ngit checkout -q 604fc74 && cat VERSION\npython3 explica.py --help | grep -E \"^  (prepare|preview)\"\npython3 -m unittest discover -s tests > testes.log 2>&1; echo \"saída: $?\"\ngrep -E \"^(Ran|OK)\" testes.log | sed 's/ in .*s$//'"
+          "conteudo": "E=${TMPDIR:-/tmp}/ensaio-fabrica/a2; rm -rf \"$E\"; mkdir -p \"$E\"; cd \"$E\"\ngit clone -q https://github.com/linnoff88-dev/explicavideos.git && cd explicavideos\ngit checkout -q 604fc74 && cat VERSION\npython3 explica.py --help | grep -E \"^  (prepare|preview)\"\npython3 -m unittest discover -s tests > testes.log 2>&1; echo \"saída: $?\"\ngrep -E \"^(Ran|OK)\" testes.log | sed 's/ in .*s$//'"
         }
       ],
       "saida": {
@@ -110,7 +110,7 @@
         {
           "rot": "Terminal · prepare and status",
           "icone": "terminal",
-          "conteudo": "K=~/projetos/formacao-cinema-ia-fabrica-v72/kit\nE=${TMPDIR:-/tmp}/ensaio-fabrica/a2; cd \"$E/explicavideos\"\ncat > \"$E/ensaio.json\" <<FIM\n{\"id\": \"ensaio\", \"title\": \"Ensaio\", \"source_repo\": \"$E\", \"output\": \"$E/saida\",\n \"languages\": [\"pt\"], \"scene_files\": {\"pt\": \"$K/exemplos/a2-explica/cenas-pt.json\"},\n \"max_chars\": 300}\nFIM\npython3 explica.py --config \"$E/ensaio.json\" prepare; echo \"saída: $?\"\nls \"$E/saida/blocos\" \"$E/saida/templates/pt\"\npython3 explica.py --config \"$E/ensaio.json\" status | head -3"
+          "conteudo": "K=~/projetos/formacao-cARCKHÉ-ia-fabrica-v72/kit\nE=${TMPDIR:-/tmp}/ensaio-fabrica/a2; cd \"$E/explicavideos\"\ncat > \"$E/ensaio.json\" <<FIM\n{\"id\": \"ensaio\", \"title\": \"Ensaio\", \"source_repo\": \"$E\", \"output\": \"$E/saida\",\n \"languages\": [\"pt\"], \"scene_files\": {\"pt\": \"$K/exemplos/a2-explica/cenas-pt.json\"},\n \"max_chars\": 300}\nFIM\npython3 explica.py --config \"$E/ensaio.json\" prepare; echo \"saída: $?\"\nls \"$E/saida/blocos\" \"$E/saida/templates/pt\"\npython3 explica.py --config \"$E/ensaio.json\" status | head -3"
         }
       ],
       "saida": {
@@ -320,17 +320,17 @@
       "links": [
         {
           "t": "Explicavideos: usage guide",
-          "href": "https://inematds.github.io/explicavideos/guia/",
+          "href": "https://linnoff88-dev.github.io/
           "icone": "video"
         },
         {
           "t": "Explicavideos on GitHub",
-          "href": "https://github.com/inematds/explicavideos",
+          "href": "https://github.com/linnoff88-dev/explicavideos",
           "icone": "git"
         },
         {
           "t": "The IA Cultivada video in the player with chapters",
-          "href": "https://inematds.github.io/iacultivada/videos/",
+          "href": "https://linnoff88-dev.github.io/
           "icone": "play"
         }
       ]

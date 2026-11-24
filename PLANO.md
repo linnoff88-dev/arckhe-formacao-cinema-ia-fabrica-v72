@@ -1,4 +1,4 @@
-# PLANO — A fábrica de vídeo com agentes (Formação Cinema com IA, curso 4 de 6) · 19/10/2026
+# PLANO — A fábrica de vídeo com agentes (Formação CARCKHÉ com IA, curso 4 de 6) · 19/10/2026
 
 Público: quem já usa Claude Code ou Codex no terminal. Toda prática é `comando` → trecho literal da saída, com `echo "saída: $?"`. Nada gasta crédito: nenhum avatar, nenhum vídeo gerado por IA, nenhum envio ao YouTube.
 Kit = pasta `kit/` deste repo (o aluno clona em `~/projetos`). Cada bloco "Terminal" é `kit/blocos/aNx-*.sh`; `kit/capturar.sh` roda um por vez (TMPDIR próprio trocado por `/tmp` na saída, timeout 600 s, MemoryMax 8G); `scripts/resolver-kit.py . --conferir` confere bloco × arquivo testado.
@@ -6,7 +6,7 @@ Cada motor é clonado do GitHub num commit fixo (o que está publicado, não a c
 Saídas com selo "real": capturadas em 19/10/2026 nesta máquina (Ubuntu, Node 24.13, ffmpeg 6.1.1, Python 3.12, hyperframes 0.8.176, agent-browser 0.6.0).
 Licença: só yt-pubx e cardshorts têm arquivo LICENSE (MIT). Os outros motores são código público no GitHub sem arquivo de licença: o curso diz "código público", nunca "licença aberta".
 
-Fontes: READMEs, guias e código commitado dos motores acima; área Vídeos do INEMA (eventos.inema.pro/videos/, tabela "Por onde começar", 14 linhas, lida em 19/10/2026); `33viralhooks` (só a anatomia do gancho em três camadas); pesquisa §3 (avatares) e §8 (rótulo); `skill-video-demonstrativo` e `videos-edit-curso` (cursos antigos).
+Fontes: READMEs, guias e código commitado dos motores acima; área Vídeos do ARCKHÉ (eventos.ARCKHÉ.pro/videos/, tabela "Por onde começar", 14 linhas, lida em 19/10/2026); `33viralhooks` (só a anatomia do gancho em três camadas); pesquisa §3 (avatares) e §8 (rótulo); `skill-video-demonstrativo` e `videos-edit-curso` (cursos antigos).
 
 ## Aulas
 
@@ -22,8 +22,8 @@ Fontes: READMEs, guias e código commitado dos motores acima; área Vídeos do I
 | 8 | publicar | Publicar um vídeo: legenda, thumb, três idiomas e YouTube | ensaiar a publicação com o yt-pubx em modo --dry-run, sem modelo e sem envio, e montar o plano do seu primeiro vídeo. | vídeo → título/descrição/tags → thumb → legenda → dry-run → envio (você) | `a8a-dryrun` → `--dry-run: nada foi enviado.`; `a8b-sem-texto` → `ERRO: sem --title…` + `saída: 1`; `a8c-thumb` → `thumb: (1280, 720)` |
 
 Simulação: `simfila` na aula 2 (os cinco serviços do `start` — enviar, conferir, render, montar, publicar — que param e retomam do manifesto; nenhum crédito na simulação). Sem `simconversa`.
-Vídeos: aula 2 = explicativo publicado do iacultivada (release `video-v2.0.0`, PT/EN/ES, legendas `.vtt` do próprio repo) como "o que sai do motor"; aula 4 = "Egito Antigo em um minuto" (release `video-v1.0.0` do docflow; `.vtt` transcrito pelo inemavox local em 19/10/2026; quadros olhados: produção INEMA, sem marca alheia). Players de refazvideo (ai-harness) só por link.
-Próximo curso da ordem: curso 5, `https://inematds.github.io/formacao-cinema-ia-sites-v72/` (não publicado em 19/10/2026). Anterior: curso 3, `formacao-cinema-ia-motion-v72` (não publicado em 19/10/2026).
+Vídeos: aula 2 = explicativo publicado do iacultivada (release `video-v2.0.0`, PT/EN/ES, legendas `.vtt` do próprio repo) como "o que sai do motor"; aula 4 = "Egito Antigo em um minuto" (release `video-v1.0.0` do docflow; `.vtt` transcrito pelo ARCKHÉvox local em 19/10/2026; quadros olhados: produção ARCKHÉ, sem marca alheia). Players de refazvideo (ai-harness) só por link.
+Próximo curso da ordem: curso 5, `https://linnoff88-dev.github.io/ (não publicado em 19/10/2026). Anterior: curso 3, `formacao-cARCKHÉ-ia-motion-v72` (não publicado em 19/10/2026).
 Donos de assunto (CURRICULO): HyperFrames/Remotion → curso 3 (só link); ética e rótulo → curso 2 aula 7 (aula 7 daqui trata só consentimento do avatar); reel em 7 etapas, agenda e canal no automático → `do-chat-ao-agente-redes-v72` (só link).
 
 ## Novo / atualizado em relação aos cursos antigos (passo obrigatório do BRIEF)

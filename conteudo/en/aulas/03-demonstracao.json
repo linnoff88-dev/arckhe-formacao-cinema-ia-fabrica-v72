@@ -91,7 +91,7 @@
         {
           "rot": "Terminal · capture the app",
           "icone": "terminal",
-          "conteudo": "K=~/projetos/formacao-cinema-ia-fabrica-v72/kit\ncommand -v agent-browser > /dev/null || { echo \"FALTA agent-browser: npm i -g agent-browser@0.6.0 && agent-browser install\"; exit 1; }\nE=${TMPDIR:-/tmp}/ensaio-fabrica/a3; rm -rf \"$E\"; mkdir -p \"$E\"; cd \"$E\"\ngit clone -q https://github.com/inematds/video-demonstrativo.git && git -C video-demonstrativo checkout -q a87b382\ncp video-demonstrativo/skills/video-demonstrativo/scripts/capture.mjs \"$K/exemplos/a3-demo/actions.json\" .\npython3 -m http.server 18791 --bind 127.0.0.1 --directory \"$K/exemplos/a3-demo\" > servidor.log 2>&1 & S=$!\nuntil curl -s -o /dev/null http://127.0.0.1:18791/; do sleep 0.3; done\nexport AGENT_BROWSER_SESSION=ensaio-fabrica\nnode capture.mjs actions.json > captura.log 2>&1; echo \"captura: $?\"\nagent-browser close > /dev/null 2>&1; kill $S\nls assets/shots\npython3 -c \"import json; s=json.load(open('steps.json')); print('passos no steps.json:', len(s['steps']))\""
+          "conteudo": "K=~/projetos/formacao-cARCKHÉ-ia-fabrica-v72/kit\ncommand -v agent-browser > /dev/null || { echo \"FALTA agent-browser: npm i -g agent-browser@0.6.0 && agent-browser install\"; exit 1; }\nE=${TMPDIR:-/tmp}/ensaio-fabrica/a3; rm -rf \"$E\"; mkdir -p \"$E\"; cd \"$E\"\ngit clone -q https://github.com/linnoff88-dev/video-demonstrativo.git && git -C video-demonstrativo checkout -q a87b382\ncp video-demonstrativo/skills/video-demonstrativo/scripts/capture.mjs \"$K/exemplos/a3-demo/actions.json\" .\npython3 -m http.server 18791 --bind 127.0.0.1 --directory \"$K/exemplos/a3-demo\" > servidor.log 2>&1 & S=$!\nuntil curl -s -o /dev/null http://127.0.0.1:18791/; do sleep 0.3; done\nexport AGENT_BROWSER_SESSION=ensaio-fabrica\nnode capture.mjs actions.json > captura.log 2>&1; echo \"captura: $?\"\nagent-browser close > /dev/null 2>&1; kill $S\nls assets/shots\npython3 -c \"import json; s=json.load(open('steps.json')); print('passos no steps.json:', len(s['steps']))\""
         }
       ],
       "saida": {
@@ -128,7 +128,7 @@
           },
           {
             "rot": "Why the pinned version",
-            "html": "<p>The skill at commit a87b382 calls <code>npx hyperframes</code> without a version, and the old course pinned <code>0.8.66</code>. The blocks in this course use <code>hyperframes@0.8.176</code> (npm, Oct 19, 2026) and <code>HYPERFRAMES_NO_TELEMETRY=1</code>. The why, and the rest of HyperFrames, is in <a href=\"https://inematds.github.io/formacao-cinema-ia-motion-v72/en/\">course 3</a>.</p>"
+            "html": "<p>The skill at commit a87b382 calls <code>npx hyperframes</code> without a version, and the old course pinned <code>0.8.66</code>. The blocks in this course use <code>hyperframes@0.8.176</code> (npm, Oct 19, 2026) and <code>HYPERFRAMES_NO_TELEMETRY=1</code>. The why, and the rest of HyperFrames, is in <a href=\"https://linnoff88-dev.github.io/ 3</a>.</p>"
           }
         ]
       }
@@ -141,7 +141,7 @@
         {
           "rot": "Terminal · render and check",
           "icone": "terminal",
-          "conteudo": "export HYPERFRAMES_NO_TELEMETRY=1 NO_COLOR=1\nK=~/projetos/formacao-cinema-ia-fabrica-v72/kit\ncd ${TMPDIR:-/tmp}/ensaio-fabrica/a3/demo\nnpx -y hyperframes@0.8.176 check 2>&1 | grep -E \"◇|✗\" | head -3\nnpx -y hyperframes@0.8.176 render --quality draft --workers 2 --quiet --output renders/demo.mp4 > render.log 2>&1\necho \"render: $?\"\nD=$(grep -o 'id=\"root\"[^>]*data-duration=\"[0-9.]*\"' index.html | grep -o \"[0-9.]*\\\"$\" | tr -d \\\")\necho \"duração pedida: $D s\"\npython3 \"$K/conferir.py\" renders/demo.mp4 \"$D\" 1920x1080 --audio; echo \"saída: $?\""
+          "conteudo": "export HYPERFRAMES_NO_TELEMETRY=1 NO_COLOR=1\nK=~/projetos/formacao-cARCKHÉ-ia-fabrica-v72/kit\ncd ${TMPDIR:-/tmp}/ensaio-fabrica/a3/demo\nnpx -y hyperframes@0.8.176 check 2>&1 | grep -E \"◇|✗\" | head -3\nnpx -y hyperframes@0.8.176 render --quality draft --workers 2 --quiet --output renders/demo.mp4 > render.log 2>&1\necho \"render: $?\"\nD=$(grep -o 'id=\"root\"[^>]*data-duration=\"[0-9.]*\"' index.html | grep -o \"[0-9.]*\\\"$\" | tr -d \\\")\necho \"duração pedida: $D s\"\npython3 \"$K/conferir.py\" renders/demo.mp4 \"$D\" 1920x1080 --audio; echo \"saída: $?\""
         }
       ],
       "saida": {
@@ -249,7 +249,7 @@
       "links": [
         {
           "t": "video-demonstrativo: usage guide",
-          "href": "https://inematds.github.io/video-demonstrativo/guia/",
+          "href": "https://linnoff88-dev.github.io/
           "icone": "video"
         },
         {
@@ -259,7 +259,7 @@
         },
         {
           "t": "Course 3: HyperFrames from scratch",
-          "href": "https://inematds.github.io/formacao-cinema-ia-motion-v72/en/",
+          "href": "https://linnoff88-dev.github.io/
           "icone": "camadas"
         }
       ]

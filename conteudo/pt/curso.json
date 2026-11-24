@@ -1,61 +1,61 @@
 {
-  "id": "formacao-cinema-ia-fabrica-v72",
+  "id": "formacao-cARCKHÉ-ia-fabrica-v72",
   "lang": "pt-BR",
-  "url": "https://inematds.github.io/formacao-cinema-ia-fabrica-v72/",
+  "url": "https://linnoff88-dev.github.io/
   "nome": "A fábrica de vídeo com agentes",
-  "sub": "Formação Cinema com IA · curso 4 de 6",
+  "sub": "Formação CARCKHÉ com IA · curso 4 de 6",
   "volta": {
-    "t": "Área Vídeos do INEMA",
-    "href": "https://eventos.inema.pro/videos/"
+    "t": "Área Vídeos do ARCKHÉ",
+    "href": "https://eventos.ARCKHÉ.pro/videos/"
   },
   "lado_card": {
     "rot": "Kit do curso",
     "t": "Blocos testados e conferidores",
     "texto": "Toda saída das aulas sai da pasta kit/ deste repositório. Clone em ~/projetos e rode os mesmos blocos.",
     "link": "Abrir o kit no GitHub",
-    "href": "https://github.com/inematds/formacao-cinema-ia-fabrica-v72/tree/main/kit"
+    "href": "https://github.com/linnoff88-dev/formacao-cARCKHÉ-ia-fabrica-v72/tree/main/kit"
   },
-  "rodape": "INEMA.CLUB · conteúdo aberto e gratuito · formato INEMA Learning v7.2 · Formação Cinema com IA, curso 4 de 6 · <a href=\"https://eventos.inema.pro/videos/\">eventos.inema.pro/videos</a> · <a href=\"https://inema.club/\">inema.club</a> · <a href=\"https://www.inema.club/aprender-inteligencia-artificial/\">Guia: como aprender inteligência artificial</a>",
+  "rodape": "ARCKHÉ AI · conteúdo aberto e gratuito · formato ARCKHÉ Learning v7.2 · Formação CARCKHÉ com IA, curso 4 de 6 · <a href=\"https://eventos.ARCKHÉ.pro/videos/\">eventos.ARCKHÉ.pro/videos</a> · <a href=\"https://ARCKHÉ AI/\">ARCKHÉ AI</a> · <a href=\"https://www.ARCKHÉ AI/aprender-inteligencia-artificial/\">Guia: como aprender inteligência artificial</a>",
   "videos": {
     "iacultivada": {
       "titulo": "IA Cultivada: um explicativo que saiu do explicavideos",
       "duracao": "10 min",
-      "mp4": "https://github.com/inematds/iacultivada/releases/download/video-v2.0.0/iacultivada-pt.mp4",
+      "mp4": "https://github.com/linnoff88-dev/iacultivada/releases/download/video-v2.0.0/iacultivada-pt.mp4",
       "poster": "assets/img/poster-iacultivada.jpg",
       "vtt": "assets/vtt/iacultivada-pt.vtt",
-      "pagina": "https://inematds.github.io/iacultivada/videos/",
+      "pagina": "https://linnoff88-dev.github.io/
       "idiomas": {
         "en": {
-          "mp4": "https://github.com/inematds/iacultivada/releases/download/video-v2.0.0/iacultivada-en.mp4",
+          "mp4": "https://github.com/linnoff88-dev/iacultivada/releases/download/video-v2.0.0/iacultivada-en.mp4",
           "vtt": "assets/vtt/iacultivada-en.vtt",
           "duracao": "10 min",
-          "pagina": "https://inematds.github.io/iacultivada/videos/en/"
+          "pagina": "https://linnoff88-dev.github.io/
         },
         "es": {
-          "mp4": "https://github.com/inematds/iacultivada/releases/download/video-v2.0.0/iacultivada-es.mp4",
+          "mp4": "https://github.com/linnoff88-dev/iacultivada/releases/download/video-v2.0.0/iacultivada-es.mp4",
           "vtt": "assets/vtt/iacultivada-es.vtt",
           "duracao": "9 min",
-          "pagina": "https://inematds.github.io/iacultivada/videos/es/"
+          "pagina": "https://linnoff88-dev.github.io/
         }
       }
     },
     "egito": {
       "titulo": "Egito Antigo em um minuto: o documentário modelo do docflow",
       "duracao": "55 s",
-      "mp4": "https://github.com/inematds/docflow/releases/download/video-v1.0.0/docflow-egito-pt.mp4",
+      "mp4": "https://github.com/linnoff88-dev/docflow/releases/download/video-v1.0.0/docflow-egito-pt.mp4",
       "poster": "assets/img/poster-egito.jpg",
       "vtt": "assets/vtt/egito-pt.vtt",
-      "pagina": "https://inematds.github.io/docflow/guia/"
+      "pagina": "https://linnoff88-dev.github.io/
     }
   },
   "inicio": {
-    "kicker": "Formação Cinema com IA · curso 4 de 6 · 8 aulas",
-    "titulo": "A fábrica de vídeo com agentes: os motores abertos do INEMA, do tema ao vídeo publicado",
-    "lead": "Explicativo com avatar, demonstração de app, documentário, short com portão de qualidade, editor de reels e publicação. Você roda cada motor do INEMA na sua máquina, num commit fixo, até o ponto em que ele gastaria crédito, e para ali com a saída conferida.",
+    "kicker": "Formação CARCKHÉ com IA · curso 4 de 6 · 8 aulas",
+    "titulo": "A fábrica de vídeo com agentes: os motores abertos do ARCKHÉ, do tema ao vídeo publicado",
+    "lead": "Explicativo com avatar, demonstração de app, documentário, short com portão de qualidade, editor de reels e publicação. Você roda cada motor do ARCKHÉ na sua máquina, num commit fixo, até o ponto em que ele gastaria crédito, e para ali com a saída conferida.",
     "cta": "Começar pela aula 1",
     "cta2": {
       "t": "Abrir o kit no GitHub",
-      "href": "https://github.com/inematds/formacao-cinema-ia-fabrica-v72/tree/main/kit"
+      "href": "https://github.com/linnoff88-dev/formacao-cARCKHÉ-ia-fabrica-v72/tree/main/kit"
     },
     "capa_alt": "Sala de edição escura com dois monitores de linha do tempo e código, uma claquete e um rack de computadores; à esquerda o título do curso.",
     "numeros": [

@@ -101,7 +101,7 @@
         {
           "titulo": "Turn",
           "texto": [
-            "After the hook, contradict a common belief of the audience. That's what holds them until the proof. The full 7-step reel is in the <a href=\"https://inematds.github.io/do-chat-ao-agente-redes-v72/en/\">social media course</a>."
+            "After the hook, contradict a common belief of the audience. That's what holds them until the proof. The full 7-step reel is in the <a href=\"https://linnoff88-dev.github.io/ media course</a>."
           ]
         }
       ]
@@ -119,7 +119,7 @@
         {
           "rot": "Terminal · check the scripts",
           "icone": "terminal",
-          "conteudo": "K=~/projetos/formacao-cinema-ia-fabrica-v72/kit\ncd ${TMPDIR:-/tmp}/ensaio-fabrica/a5; Q=makeshorts/.claude/skills/makeshorts/scripts\npython3 $Q/qa_roteiro.py \"$K/exemplos/a5-roteiros/bom.md\" --keyword gancho > bom.txt; echo \"bom: $?\"\npython3 $Q/qa_roteiro.py \"$K/exemplos/a5-roteiros/fraco.md\" --keyword gancho > fraco.txt; echo \"fraco: $?\"\ngrep -hE \"❌|RESULTADO\" bom.txt fraco.txt"
+          "conteudo": "K=~/projetos/formacao-cARCKHÉ-ia-fabrica-v72/kit\ncd ${TMPDIR:-/tmp}/ensaio-fabrica/a5; Q=makeshorts/.claude/skills/makeshorts/scripts\npython3 $Q/qa_roteiro.py \"$K/exemplos/a5-roteiros/bom.md\" --keyword gancho > bom.txt; echo \"bom: $?\"\npython3 $Q/qa_roteiro.py \"$K/exemplos/a5-roteiros/fraco.md\" --keyword gancho > fraco.txt; echo \"fraco: $?\"\ngrep -hE \"❌|RESULTADO\" bom.txt fraco.txt"
         }
       ],
       "saida": {
@@ -140,7 +140,7 @@
         {
           "rot": "Terminal · QA of a dry-run short",
           "icone": "terminal",
-          "conteudo": "E=${TMPDIR:-/tmp}/ensaio-fabrica/a5; rm -rf \"$E\"; mkdir -p \"$E\"; cd \"$E\"\ngit clone -q https://github.com/inematds/makeshorts.git && git -C makeshorts checkout -q 52eb799\nQ=makeshorts/.claude/skills/makeshorts/scripts\nffmpeg -v error -f lavfi -i \"testsrc2=s=1080x1920:r=30:d=20\" -f lavfi -i \"sine=f=220:d=20\" \\\n  -af loudnorm=I=-14:TP=-2:LRA=7 -ar 48000 -c:v libx264 -pix_fmt yuv420p -c:a aac -shortest ensaio-916.mp4\npython3 $Q/qa_short.py ensaio-916.mp4 --profile divulgacao > qa.txt; echo \"saída: $?\"\ngrep -E \"^(✅|⚠️|❌)|RESULTADO\" qa.txt"
+          "conteudo": "E=${TMPDIR:-/tmp}/ensaio-fabrica/a5; rm -rf \"$E\"; mkdir -p \"$E\"; cd \"$E\"\ngit clone -q https://github.com/linnoff88-dev/makeshorts.git && git -C makeshorts checkout -q 52eb799\nQ=makeshorts/.claude/skills/makeshorts/scripts\nffmpeg -v error -f lavfi -i \"testsrc2=s=1080x1920:r=30:d=20\" -f lavfi -i \"sine=f=220:d=20\" \\\n  -af loudnorm=I=-14:TP=-2:LRA=7 -ar 48000 -c:v libx264 -pix_fmt yuv420p -c:a aac -shortest ensaio-916.mp4\npython3 $Q/qa_short.py ensaio-916.mp4 --profile divulgacao > qa.txt; echo \"saída: $?\"\ngrep -E \"^(✅|⚠️|❌)|RESULTADO\" qa.txt"
         },
         {
           "rot": "Terminal · the same QA on a 16:9 video",
@@ -190,12 +190,12 @@
     {
       "tipo": "codigo",
       "titulo": "The second engine: cardshorts",
-      "sub": "roteiro.yaml becomes a narrated 9:16 card short. MIT license. To render, it needs a local voice and image (inemavox and an image server with a GPU); here you only list the styles.",
+      "sub": "roteiro.yaml becomes a narrated 9:16 card short. MIT license. To render, it needs a local voice and image (ARCKHÉvox and an image server with a GPU); here you only list the styles.",
       "blocos": [
         {
           "rot": "Terminal · cardshorts styles",
           "icone": "terminal",
-          "conteudo": "cd ${TMPDIR:-/tmp}/ensaio-fabrica/a5\ngit clone -q https://github.com/inematds/cardshorts.git && git -C cardshorts checkout -q d7f5c6d\ncd cardshorts && python3 cardshorts.py estilos | grep -E \"^[a-z]\" \ngrep -E \"^(estilo|max_seg):\" exemplos/versus/roteiro.yaml"
+          "conteudo": "cd ${TMPDIR:-/tmp}/ensaio-fabrica/a5\ngit clone -q https://github.com/linnoff88-dev/cardshorts.git && git -C cardshorts checkout -q d7f5c6d\ncd cardshorts && python3 cardshorts.py estilos | grep -E \"^[a-z]\" \ngrep -E \"^(estilo|max_seg):\" exemplos/versus/roteiro.yaml"
         }
       ],
       "saida": {
@@ -315,17 +315,17 @@
       "links": [
         {
           "t": "MakeShorts: user guide",
-          "href": "https://inematds.github.io/makeshorts/guia/",
+          "href": "https://linnoff88-dev.github.io/
           "icone": "video"
         },
         {
           "t": "cardshorts: user guide",
-          "href": "https://inematds.github.io/cardshorts/guia/",
+          "href": "https://linnoff88-dev.github.io/
           "icone": "camadas"
         },
         {
           "t": "Reel in 7 steps and the channel on autopilot (From chat to agent course)",
-          "href": "https://inematds.github.io/do-chat-ao-agente-redes-v72/en/",
+          "href": "https://linnoff88-dev.github.io/
           "icone": "megafone"
         }
       ]
