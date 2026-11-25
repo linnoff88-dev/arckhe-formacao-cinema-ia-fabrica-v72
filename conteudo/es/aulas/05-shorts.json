@@ -47,7 +47,7 @@
           "icone": "arquivo",
           "titulo": "Guion",
           "sub": "sección FALA",
-          "detalhe": "Un Markdown con el habla en la sección ### FALA. Perfil divulgação: de 60 a 125 palabras."
+          "detalhe": "Un Markdown con el habla en la sección ### FALA. Perfil divulgaçêo: de 60 a 125 palabras."
         },
         {
           "icone": "portao",
@@ -114,7 +114,7 @@
         {
           "rot": "Archivo · kit/exemplos/a5-roteiros/fraco.md",
           "icone": "arquivo",
-          "conteudo": "# Roteiro fraco\n### FALA\nOlá pessoal, hoje eu vou mostrar para vocês uma coisa muito interessante sobre como fazer vídeos curtos que prendem a atenção das pessoas. O gancho tem três camadas: a frase, a cena e o texto. Fica até o fim que no final eu conto o segredo."
+          "conteudo": "# Roteiro fraco\n### FALA\nOlá pessoal, hoje eu vou mostrar para vocês uma coisa muito interessante sobre como fazer vídeos curtos que prendem a atençêo das pessoas. O gancho tem três camadas: a frase, a cena e o texto. Fica até o fim que no final eu conto o segredo."
         },
         {
           "rot": "Terminal · comprobar los guiones",
@@ -127,7 +127,7 @@
         "abas": [
           {
             "rot": "Salida capturada (19/10/2026)",
-            "html": "<pre>bom: 0\nfraco: 1\nRESULTADO: APROVADO (falta: teste da lacuna, tese, fontes — revisão humana)\n  ❌ gancho (palavras)        23 palavras: “Olá pessoal, hoje eu vou mostrar para vocês uma coisa muito interessante sobre c” (máx. 9)\n  ❌ abertura proibida        começa com “ola”\n  ❌ palavra-chave no início  “gancho” fora das primeiras 15 palavras (≈ 5 s)\nRESULTADO: REPROVADO</pre><p>El APROVADO del guion avisa lo que la máquina no mide: si el gancho abre una brecha, si la tesis toma partido, si los datos tienen fuente. Eso queda de tu parte.</p>"
+            "html": "<pre>bom: 0\nfraco: 1\nRESULTADO: APROVADO (falta: teste da lacuna, tese, fontes — revisêo humana)\n  ❌ gancho (palavras)        23 palavras: “Olá pessoal, hoje eu vou mostrar para vocês uma coisa muito interessante sobre c” (máx. 9)\n  ❌ abertura proibida        começa com “ola”\n  ❌ palavra-chave no início  “gancho” fora das primeiras 15 palavras (≈ 5 s)\nRESULTADO: REPROVADO</pre><p>El APROVADO del guion avisa lo que la máquina no mide: si el gancho abre una brecha, si la tesis toma partido, si los datos tienen fuente. Eso queda de tu parte.</p>"
           }
         ]
       }
@@ -135,7 +135,7 @@
     {
       "tipo": "codigo",
       "titulo": "La compuerta del video",
-      "sub": "El bloque clona makeshorts en un commit fijo, hace un video de ensayo de 20 s en 1080×1920 con sonido normalizado y ejecuta el QA en el perfil divulgação.",
+      "sub": "El bloque clona makeshorts en un commit fijo, hace un video de ensayo de 20 s en 1080×1920 con sonido normalizado y ejecuta el QA en el perfil divulgaçêo.",
       "blocos": [
         {
           "rot": "Terminal · QA de un short de ensayo",
@@ -153,7 +153,7 @@
         "abas": [
           {
             "rot": "Salida capturada (19/10/2026)",
-            "html": "<pre>saída: 0\n✅ duração                  20.0s\n✅ formato                  1080x1920\n✅ fps                      30.00\n✅ codec vídeo              h264\n✅ codec áudio              aac\n✅ loudness                 -13.9 LUFS\n✅ sem tela preta inicial   imagem desde o frame 0\n✅ frame 0 (informação)     0.063 de bordas\n⚠️  trechos parados          1 acima de 4 s: 0.0–20.0s — justificar ou quebrar\n⚠️  legendas                 não verificadas (passe --srt ou --words); reel sem legenda conferida não vai pro Nei\nRESULTADO: APROVADO (falta a revisão humana: gancho, prova, pronúncia)</pre><p>Los números (−13.9 LUFS, 0.063 de bordes) son de esta máquina, ffmpeg 6.1.1; en la tuya pueden variar un poco. Lo que vale es la línea RESULTADO. El aviso de subtítulos cita el flujo de Nei: en el tuyo, pasa <code>--srt</code>.</p>"
+            "html": "<pre>saída: 0\n✅ duraçêo                  20.0s\n✅ formato                  1080x1920\n✅ fps                      30.00\n✅ codec vídeo              h264\n✅ codec áudio              aac\n✅ loudness                 -13.9 LUFS\n✅ sem tela preta inicial   imagem desde o frame 0\n✅ frame 0 (informaçêo)     0.063 de bordas\n⚠️  trechos parados          1 acima de 4 s: 0.0–20.0s — justificar ou quebrar\n⚠️  legendas                 nêo verificadas (passe --srt ou --words); reel sem legenda conferida nêo vai pro Nei\nRESULTADO: APROVADO (falta a revisêo humana: gancho, prova, pronúncia)</pre><p>Los números (−13.9 LUFS, 0.063 de bordes) son de esta máquina, ffmpeg 6.1.1; en la tuya pueden variar un poco. Lo que vale es la línea RESULTADO. El aviso de subtítulos cita el flujo de Nei: en el tuyo, pasa <code>--srt</code>.</p>"
           },
           {
             "rot": "16:9 reprueba (capturada)",
@@ -203,7 +203,7 @@
         "abas": [
           {
             "rot": "Salida capturada (19/10/2026)",
-            "html": "<pre>celular    celular — interface de telefone: notificação, busca, fila e enquete SIM/NÃO\ncracha     cracha — alvo, crachás carimbados e cédula; fundo grafite, acento vermelho\ndocumento  documento — papel datilografado, formulário em branco, carimbos e certificado\nextrato    extrato — nota fiscal / extrato bancário com borda picotada e carimbos\nversus     versus — editorial preto e branco com vermelho; foto x foto, telas divididas, chamadas em Anton\nestilo: versus\nmax_seg: 30          # a velocidade da fala é ajustada para caber (até 1,2x)</pre><p>El max_seg es un tope: el habla se acelera hasta 1,2× para que quepa y, si no cabe, el motor falla en lugar de cortar.</p>"
+            "html": "<pre>celular    celular — interface de telefone: notificaçêo, busca, fila e enquete SIM/NêO\ncracha     cracha — alvo, crachás carimbados e cédula; fundo grafite, acento vermelho\ndocumento  documento — papel datilografado, formulário em branco, carimbos e certificado\nextrato    extrato — nota fiscal / extrato bancário com borda picotada e carimbos\nversus     versus — editorial preto e branco com vermelho; foto x foto, telas divididas, chamadas em Anton\nestilo: versus\nmax_seg: 30          # a velocidade da fala é ajustada para caber (até 1,2x)</pre><p>El max_seg es un tope: el habla se acelera hasta 1,2× para que quepa y, si no cabe, el motor falla en lugar de cortar.</p>"
           }
         ]
       }
@@ -218,7 +218,7 @@
           "titulo": "E1 · QA del video",
           "min": "5 min",
           "texto": "Ejecuta \"QA de un short de ensaio\" y \"el mismo QA en un video 16:9\".",
-          "pronto": "<code>RESULTADO: APROVADO (falta a revisão humana: gancho, prova, pronúncia)</code> con <code>saída: 0</code>, y después <code>❌ formato                  1920x1080</code>, <code>RESULTADO: REPROVADO</code> y <code>saída: 1</code>."
+          "pronto": "<code>RESULTADO: APROVADO (falta a revisêo humana: gancho, prova, pronúncia)</code> con <code>saída: 0</code>, y después <code>❌ formato                  1920x1080</code>, <code>RESULTADO: REPROVADO</code> y <code>saída: 1</code>."
         },
         {
           "id": "e2",
@@ -266,7 +266,7 @@
           "ref": "diagrama"
         },
         {
-          "p": "Tu gancho es \"Olá, hoje vou mostrar três truques de edição\". ¿Qué dice la compuerta?",
+          "p": "Tu gancho es \"Olá, hoje vou mostrar três truques de ediçêo\". ¿Qué dice la compuerta?",
           "opcoes": [
             "Reprueba por apertura prohibida.",
             "Aprueba, porque tiene menos de 9 palabras.",

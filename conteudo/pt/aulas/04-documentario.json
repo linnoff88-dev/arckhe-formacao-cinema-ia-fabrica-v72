@@ -2,11 +2,11 @@
   "slug": "documentario",
   "num": 4,
   "menu": "Documentário",
-  "titulo": "Documentário narrado e a sua versão de um vídeo de referência",
-  "titulo_curto": "Documentário e versão própria",
+  "titulo": "Documentário narrado e a sua versêo de um vídeo de referência",
+  "titulo_curto": "Documentário e versêo própria",
   "minutos": 16,
-  "lead": "Dois motores partem de lugares diferentes. O docflow parte de um tema e entrega um documentário curto narrado. O refazvideo parte de um vídeo de referência e entrega a sua versão em português, com tese e roteiro seus. Nos dois, o arquivo que o agente escreve é conferido antes de qualquer geração.",
-  "objetivo": "ler o tema de um documentário do docflow e validar o roteiro visual de um refazvideo antes de qualquer geração.",
+  "lead": "Dois motores partem de lugares diferentes. O docflow parte de um tema e entrega um documentário curto narrado. O refazvideo parte de um vídeo de referência e entrega a sua versêo em português, com tese e roteiro seus. Nos dois, o arquivo que o agente escreve é conferido antes de qualquer geraçêo.",
+  "objetivo": "ler o tema de um documentário do docflow e validar o roteiro visual de um refazvideo antes de qualquer geraçêo.",
   "competencias": [
     "escrever-tema-de-documentario",
     "validar-roteiro-visual",
@@ -15,11 +15,11 @@
   "aprende": [
     {
       "icone": "arquivo",
-      "t": "O tema.yaml do docflow: as respostas que viram roteiro, imagens, narração e montagem"
+      "t": "O tema.yaml do docflow: as respostas que viram roteiro, imagens, narraçêo e montagem"
     },
     {
       "icone": "portao",
-      "t": "Quais comandos do docflow chamam modelo ou gerador e quais são locais"
+      "t": "Quais comandos do docflow chamam modelo ou gerador e quais sêo locais"
     },
     {
       "icone": "lupa",
@@ -27,10 +27,10 @@
     },
     {
       "icone": "escudo",
-      "t": "As regras que o refazvideo não negocia: rosto do autor original coberto, aprovação antes do avatar"
+      "t": "As regras que o refazvideo nêo negocia: rosto do autor original coberto, aprovaçêo antes do avatar"
     }
   ],
-  "hero_alt": "Mesa escura de pesquisa com um mapa antigo sem legenda, lupa, fotos impressas de deserto e ruínas, e um monitor com cena de deserto e forma de onda da narração.",
+  "hero_alt": "Mesa escura de pesquisa com um mapa antigo sem legenda, lupa, fotos impressas de deserto e ruínas, e um monitor com cena de deserto e forma de onda da narraçêo.",
   "secoes": [
     {
       "tipo": "diagrama",
@@ -41,7 +41,7 @@
           "icone": "arquivo",
           "titulo": "Tema",
           "sub": "docflow",
-          "detalhe": "Um YAML com tema, estilo visual, duração total e por cena, formato, idioma, motor de geração e voz. É tudo o que você escreve."
+          "detalhe": "Um YAML com tema, estilo visual, duraçêo total e por cena, formato, idioma, motor de geraçêo e voz. É tudo o que você escreve."
         },
         {
           "icone": "robo",
@@ -53,20 +53,20 @@
           "icone": "video",
           "titulo": "Gerar",
           "sub": "imagem e clipe",
-          "detalhe": "docflow gerar faz imagens e clipes pelo motor escolhido no tema (flow, agnes, reais ou historia; o \"local\" do comentário do egito.yaml não está implementado no commit f1ed75e). É geração de vídeo: fora da prática. Sem gerador, estatica troca o clipe por imagem com zoom lento."
+          "detalhe": "docflow gerar faz imagens e clipes pelo motor escolhido no tema (flow, agnes, reais ou historia; o \"local\" do comentário do egito.yaml nêo está implementado no commit f1ed75e). É geraçêo de vídeo: fora da prática. Sem gerador, estatica troca o clipe por imagem com zoom lento."
         },
         {
           "icone": "megafone",
           "titulo": "Narrar e montar",
           "sub": "local",
-          "detalhe": "Uma fala por cena com a voz do ARCKHÉvox (TTS local) e a montagem no ffmpeg: tempo, transição, fades, ambiente e música."
+          "detalhe": "Uma fala por cena com a voz do ARCKHÉvox (TTS local) e a montagem no ffmpeg: tempo, transiçêo, fades, ambiente e música."
         },
         {
           "icone": "check",
-          "titulo": "Versão própria",
+          "titulo": "Versêo própria",
           "sub": "refazvideo",
           "forte": true,
-          "detalhe": "Do vídeo de referência: baixar, transcrever, extrair quadros, escrever roteiro e roteiro visual seus, validar as deixas e só então produzir no explicavideos."
+          "detalhe": "Do vídeo de referência: baixar, transcrever, extrair quadros, escrever roteiro e roteiro visual seus, validar as deixas e só entêo produzir no explicavideos."
         }
       ],
       "legenda": "docflow 0.8.0 (commit f1ed75e) e refazvideo 1.4.1 (commit e1f369e), lidos em 19/10/2026."
@@ -74,7 +74,7 @@
     {
       "tipo": "codigo",
       "titulo": "O docflow sem gerar nada",
-      "sub": "Versão, estilos e o tema do vídeo modelo. Só comandos locais.",
+      "sub": "Versêo, estilos e o tema do vídeo modelo. Só comandos locais.",
       "blocos": [
         {
           "rot": "Terminal · ler o docflow",
@@ -87,11 +87,11 @@
         "abas": [
           {
             "rot": "Saída capturada (19/10/2026)",
-            "html": "<pre>0.8.0\ndocflow 0.8.0 · estilos (use `estilo: &lt;nome&gt;` no tema)\n\n  documentario\n    Documentário narrado com cenas geradas por IA (imagem -&gt; vídeo), ritmo calmo.\nslug: egito-antigo\nestilo: \"realistic cARCKHÉtic documentary, natural golden light, 35mm film look\"\nduracao_total: 60\nduracao_cena: 10\nformato: \"16:9\"\nmotor: agnes          # flow | agnes | local\nvoz: nei              # voz do ARCKHÉvox (chatterbox): nei, nei2, bella...</pre><p>O motor e a voz ficam no tema, não no código. Atenção: <code>voz: nei</code> é a voz clonada do próprio Nei, usada com o consentimento dele. Na sua cópia, troque por uma voz de banco ou pela sua, com termo (aula 7). A duração total dividida pela duração da cena dá o número de cenas (60 ÷ 10 = 6).</p>"
+            "html": "<pre>0.8.0\ndocflow 0.8.0 · estilos (use `estilo: &lt;nome&gt;` no tema)\n\n  documentario\n    Documentário narrado com cenas geradas por IA (imagem -&gt; vídeo), ritmo calmo.\nslug: egito-antigo\nestilo: \"realistic cARCKHÉtic documentary, natural golden light, 35mm film look\"\nduracao_total: 60\nduracao_cena: 10\nformato: \"16:9\"\nmotor: agnes          # flow | agnes | local\nvoz: nei              # voz do ARCKHÉvox (chatterbox): nei, nei2, bella...</pre><p>O motor e a voz ficam no tema, nêo no código. Atençêo: <code>voz: nei</code> é a voz clonada do próprio Nei, usada com o consentimento dele. Na sua cópia, troque por uma voz de banco ou pela sua, com termo (aula 7). A duraçêo total dividida pela duraçêo da cena dá o número de cenas (60 ÷ 10 = 6).</p>"
           },
           {
             "rot": "Cuidado com o publicar",
-            "html": "<p>No commit f1ed75e, <code>docflow publicar</code> chama o yt-pubx em ensaio (dry-run), mas, se ainda não houver <code>thumb.jpg</code> na pasta do vídeo, o yt-pubx pede ao Codex a frase e a cena da capa. Ensaio de publicação sem modelo é na aula 8.</p>"
+            "html": "<p>No commit f1ed75e, <code>docflow publicar</code> chama o yt-pubx em ensaio (dry-run), mas, se ainda nêo houver <code>thumb.jpg</code> na pasta do vídeo, o yt-pubx pede ao Codex a frase e a cena da capa. Ensaio de publicaçêo sem modelo é na aula 8.</p>"
           }
         ]
       }
@@ -99,7 +99,7 @@
     {
       "tipo": "video",
       "titulo": "O documentário modelo",
-      "sub": "Egito Antigo em um minuto: o vídeo que esse tema gerou (55 s, 16:9, narração local).",
+      "sub": "Egito Antigo em um minuto: o vídeo que esse tema gerou (55 s, 16:9, narraçêo local).",
       "chave": "egito"
     },
     {
@@ -118,15 +118,15 @@
         "abas": [
           {
             "rot": "Saída capturada (19/10/2026)",
-            "html": "<pre>1.4.1\naviso exemplos/decisions-jev/pt-b02.json cena 7: 'no visible damage' aparece 2x, casa com a 1ª\nOK 1 aviso(s)\nsaída: 0</pre><p>Aviso não reprova: a deixa aparece duas vezes na fala e a tela entra na primeira. Se não for isso que você quer, troque a deixa por um trecho único.</p>"
+            "html": "<pre>1.4.1\naviso exemplos/decisions-jev/pt-b02.json cena 7: 'no visible damage' aparece 2x, casa com a 1ª\nOK 1 aviso(s)\nsaída: 0</pre><p>Aviso nêo reprova: a deixa aparece duas vezes na fala e a tela entra na primeira. Se nêo for isso que você quer, troque a deixa por um trecho único.</p>"
           }
         ]
       }
     },
     {
       "tipo": "codigo",
-      "titulo": "Uma deixa que não está na fala",
-      "sub": "Mesma validação com uma deixa trocada (\"Faz poucas semanas\" no lugar de \"Há poucas semanas\").",
+      "titulo": "Uma deixa que nêo está na fala",
+      "sub": "Mesma validaçêo com uma deixa trocada (\"Faz poucas semanas\" no lugar de \"Há poucas semanas\").",
       "blocos": [
         {
           "rot": "Terminal · deixa errada",
@@ -139,7 +139,7 @@
         "abas": [
           {
             "rot": "Saída capturada (19/10/2026)",
-            "html": "<pre>ERRO /tmp/ensaio-fabrica/a4/pt-b01-errado.json cena 1: cue não está na fala: 'Faz poucas semanas'\naviso exemplos/decisions-jev/pt-b02.json cena 7: 'no visible damage' aparece 2x, casa com a 1ª\n1 erro(s) 1 aviso(s)\nsaída: 1</pre><p>Sem o validador, essa tela nunca entraria no vídeo e você só descobriria depois do avatar gerado.</p>"
+            "html": "<pre>ERRO /tmp/ensaio-fabrica/a4/pt-b01-errado.json cena 1: cue nêo está na fala: 'Faz poucas semanas'\naviso exemplos/decisions-jev/pt-b02.json cena 7: 'no visible damage' aparece 2x, casa com a 1ª\n1 erro(s) 1 aviso(s)\nsaída: 1</pre><p>Sem o validador, essa tela nunca entraria no vídeo e você só descobriria depois do avatar gerado.</p>"
           }
         ]
       }
@@ -147,12 +147,12 @@
     {
       "tipo": "passos",
       "titulo": "As regras do refazvideo",
-      "sub": "Lidas no AGENTS.md do commit e1f369e. Valem antes de qualquer produção.",
+      "sub": "Lidas no AGENTS.md do commit e1f369e. Valem antes de qualquer produçêo.",
       "passos": [
         {
-          "titulo": "Versão, não cópia",
+          "titulo": "Versêo, nêo cópia",
           "texto": [
-            "O vídeo de referência dá o assunto; a tese, o roteiro e a fala são seus, em português natural. Termos técnicos ficam como estão."
+            "O vídeo de referência dá o assunto; a tese, o roteiro e a fala sêo seus, em português natural. Termos técnicos ficam como estêo."
           ]
         },
         {
@@ -162,7 +162,7 @@
           ]
         },
         {
-          "titulo": "Aprovação antes do avatar",
+          "titulo": "Aprovaçêo antes do avatar",
           "texto": [
             "O avatar só é gerado com o \"pode fazer\" do dono gravado em <code>APROVADO_HEYGEN</code>, com data, blocos e minutos. Antes disso: roteiro, storyboard e validador."
           ]
@@ -170,7 +170,7 @@
         {
           "titulo": "Crédito da fonte",
           "texto": [
-            "O motor, como está, não credita a referência sozinho: só se o pedido disser. Recomendação do curso: dê crédito por padrão, e use print de vídeo de outra pessoa só com licença ou uso permitido."
+            "O motor, como está, nêo credita a referência sozinho: só se o pedido disser. Recomendaçêo do curso: dê crédito por padrêo, e use print de vídeo de outra pessoa só com licença ou uso permitido."
           ]
         }
       ]
@@ -192,13 +192,13 @@
           "titulo": "E2 · Validador",
           "min": "5 min",
           "texto": "Rode \"validar o roteiro visual\" e \"deixa errada\".",
-          "pronto": "<code>OK 1 aviso(s)</code> com <code>saída: 0</code>, e depois <code>cue não está na fala: 'Faz poucas semanas'</code>, <code>1 erro(s) 1 aviso(s)</code> e <code>saída: 1</code>."
+          "pronto": "<code>OK 1 aviso(s)</code> com <code>saída: 0</code>, e depois <code>cue nêo está na fala: 'Faz poucas semanas'</code>, <code>1 erro(s) 1 aviso(s)</code> e <code>saída: 1</code>."
         },
         {
           "id": "e3",
           "titulo": "E3 · O seu tema",
           "min": "15 min",
-          "texto": "Copie temas/egito.yaml para <code>temas/meu-tema.yaml</code> no clone do ensaio e troque slug, tema, estilo, voz e as durações para um documentário seu de 6 a 8 cenas. Não rode roteiro nem gerar.",
+          "texto": "Copie temas/egito.yaml para <code>temas/meu-tema.yaml</code> no clone do ensaio e troque slug, tema, estilo, voz e as durações para um documentário seu de 6 a 8 cenas. Nêo rode roteiro nem gerar.",
           "pronto": "<code>cd ${TMPDIR:-/tmp}/ensaio-fabrica/a4/docflow && python3 -c \"import yaml; t=yaml.safe_load(open('temas/meu-tema.yaml')); print(t['slug'], t['duracao_total'] // t['duracao_cena'], 'cenas', 'voz própria' if t['voz'] != 'nei' else 'voz do Nei')\"</code> → o seu slug e um número de 6 a 8 seguido de <code>cenas voz própria</code>."
         }
       ]
@@ -206,7 +206,7 @@
     {
       "tipo": "quiz",
       "titulo": "Teste da aula",
-      "sub": "A explicação aparece depois da sua resposta.",
+      "sub": "A explicaçêo aparece depois da sua resposta.",
       "perguntas": [
         {
           "p": "Quais comandos do docflow chamam modelo ou gerador de vídeo?",
@@ -221,15 +221,15 @@
           "ref": "diagrama"
         },
         {
-          "p": "O validador do refazvideo reprovou com \"cue não está na fala\". O que isso quer dizer?",
+          "p": "O validador do refazvideo reprovou com \"cue nêo está na fala\". O que isso quer dizer?",
           "opcoes": [
             "Que a fala passou do limite de caracteres do bloco.",
             "Que o print mostra o rosto do apresentador original.",
-            "Que a deixa da tela não está na fala.",
+            "Que a deixa da tela nêo está na fala.",
             "Que falta o arquivo APROVADO_HEYGEN na pasta de saída."
           ],
           "certa": 2,
-          "explica": "Cada tela entra no momento em que a fala diz a deixa (at). Se a deixa não existe na fala, a tela nunca entra.",
+          "explica": "Cada tela entra no momento em que a fala diz a deixa (at). Se a deixa nêo existe na fala, a tela nunca entra.",
           "ref": "codigo"
         },
         {
@@ -252,15 +252,15 @@
       "itens": [
         {
           "t": "Tema",
-          "texto": "no docflow você escreve o YAML; motor e voz (a sua, com termo) são uma linha cada."
+          "texto": "no docflow você escreve o YAML; motor e voz (a sua, com termo) sêo uma linha cada."
         },
         {
           "t": "Deixa",
           "texto": "no refazvideo, cada tela entra numa frase que tem de estar na fala."
         },
         {
-          "t": "Portão",
-          "texto": "roteiro, gerar e avatar ficam depois da conferência e da aprovação."
+          "t": "Portêo",
+          "texto": "roteiro, gerar e avatar ficam depois da conferência e da aprovaçêo."
         }
       ]
     },

@@ -47,7 +47,7 @@
           "icone": "arquivo",
           "titulo": "Consent form",
           "sub": "7 fields",
-          "detalhe": "Plain text, one line per field: Pessoa, Autoriza, Uso, Idiomas, Validade, Revogação, Rótulo."
+          "detalhe": "Plain text, one line per field: Pessoa, Autoriza, Uso, Idiomas, Validade, Revogaçêo, Rótulo."
         },
         {
           "icone": "check",
@@ -110,7 +110,7 @@
         {
           "rot": "File · kit/exemplos/a7-termo/termo.md",
           "icone": "arquivo",
-          "conteudo": "# Termo de uso de avatar e voz (exemplo fictício)\nPessoa: Ana Exemplo\nAutoriza: a própria Ana, dona do canal, autoriza avatar com o rosto dela e a voz clonada dela\nUso: vídeos dos cursos gratuitos do canal dela e cortes desses vídeos\nIdiomas: português, inglês e espanhol\nValidade: 31/12/2027\nRevogação: pedido por escrito; vídeos novos param no mesmo dia, os publicados saem em até 30 dias\nRótulo: \"Avatar e voz gerados por IA com autorização de Ana Exemplo\" no canto do vídeo e na descrição"
+          "conteudo": "# Termo de uso de avatar e voz (exemplo fictício)\nPessoa: Ana Exemplo\nAutoriza: a própria Ana, dona do canal, autoriza avatar com o rosto dela e a voz clonada dela\nUso: vídeos dos cursos gratuitos do canal dela e cortes desses vídeos\nIdiomas: português, inglês e espanhol\nValidade: 31/12/2027\nRevogaçêo: pedido por escrito; vídeos novos param no mesmo dia, os publicados saem em até 30 dias\nRótulo: \"Avatar e voz gerados por IA com autorizaçêo de Ana Exemplo\" no canto do vídeo e na descriçêo"
         },
         {
           "rot": "Terminal · check the consent form",
@@ -136,7 +136,7 @@
         {
           "rot": "File · kit/portao-avatar.sh",
           "icone": "arquivo",
-          "conteudo": "#!/usr/bin/env bash\n# portao-avatar.sh — porta de entrada de qualquer geração de avatar: sem termo conferido, nada segue.\n# Uso: bash portao-avatar.sh <termo.md> <roteiro.txt>\n# Não chama estúdio nenhum: só decide se você PODE abrir o estúdio, e quantos minutos vai pedir.\nK=$(cd \"$(dirname \"$0\")\" && pwd)\ntermo=\"${1:?uso: portao-avatar.sh <termo.md> <roteiro.txt>}\"; roteiro=\"${2:?falta o roteiro}\"\npython3 \"$K/conferir-consentimento.py\" \"$termo\" || { echo \"PORTÃO FECHADO: corrija o termo antes de gerar\"; exit 1; }\np=$(wc -w < \"$roteiro\")\necho \"roteiro: $p palavras ≈ $(( (p * 60 + 139) / 140 )) s a 140 palavras/min\"\necho \"PORTÃO ABERTO: pode levar ao estúdio (a geração gasta crédito: confira o plano antes)\""
+          "conteudo": "#!/usr/bin/env bash\n# portao-avatar.sh — porta de entrada de qualquer geraçêo de avatar: sem termo conferido, nada segue.\n# Uso: bash portao-avatar.sh <termo.md> <roteiro.txt>\n# Nêo chama estúdio nenhum: só decide se você PODE abrir o estúdio, e quantos minutos vai pedir.\nK=$(cd \"$(dirname \"$0\")\" && pwd)\ntermo=\"${1:?uso: portao-avatar.sh <termo.md> <roteiro.txt>}\"; roteiro=\"${2:?falta o roteiro}\"\npython3 \"$K/conferir-consentimento.py\" \"$termo\" || { echo \"PORTêO FECHADO: corrija o termo antes de gerar\"; exit 1; }\np=$(wc -w < \"$roteiro\")\necho \"roteiro: $p palavras ≈ $(( (p * 60 + 139) / 140 )) s a 140 palavras/min\"\necho \"PORTêO ABERTO: pode levar ao estúdio (a geraçêo gasta crédito: confira o plano antes)\""
         },
         {
           "rot": "Terminal · gate open and closed",
@@ -149,7 +149,7 @@
         "abas": [
           {
             "rot": "Captured output (10/19/2026)",
-            "html": "<pre>OK: termo de Ana Exemplo · 7 campos · válido até 31/12/2027\nroteiro: 37 palavras ≈ 16 s a 140 palavras/min\nPORTÃO ABERTO: pode levar ao estúdio (a geração gasta crédito: confira o plano antes)\nsaída: 0\nFALTA: Rótulo\nPORTÃO FECHADO: corrija o termo antes de gerar\nsaída: 1</pre><p>Put the gate call as the first line of your production script, before start: with <code>set -e</code>, exit code 1 stops everything.</p>"
+            "html": "<pre>OK: termo de Ana Exemplo · 7 campos · válido até 31/12/2027\nroteiro: 37 palavras ≈ 16 s a 140 palavras/min\nPORTêO ABERTO: pode levar ao estúdio (a geraçêo gasta crédito: confira o plano antes)\nsaída: 0\nFALTA: Rótulo\nPORTêO FECHADO: corrija o termo antes de gerar\nsaída: 1</pre><p>Put the gate call as the first line of your production script, before start: with <code>set -e</code>, exit code 1 stops everything.</p>"
           }
         ]
       }
@@ -178,7 +178,7 @@
           "titulo": "E3 · Gate on your script",
           "min": "5 min",
           "texto": "Run the gate with your consent form and one of your own scripts as a text file.",
-          "pronto": "<code>bash ~/projetos/formacao-cARCKHÉ-ia-fabrica-v72/kit/portao-avatar.sh ~/meu-termo.md [your-script.txt]; echo \"saída: $?\"</code> → <code>PORTÃO ABERTO</code> and <code>saída: 0</code>."
+          "pronto": "<code>bash ~/projetos/formacao-cARCKHÉ-ia-fabrica-v72/kit/portao-avatar.sh ~/meu-termo.md [your-script.txt]; echo \"saída: $?\"</code> → <code>PORTêO ABERTO</code> and <code>saída: 0</code>."
         }
       ]
     },

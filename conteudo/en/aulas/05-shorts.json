@@ -114,7 +114,7 @@
         {
           "rot": "File · kit/exemplos/a5-roteiros/fraco.md",
           "icone": "arquivo",
-          "conteudo": "# Roteiro fraco\n### FALA\nOlá pessoal, hoje eu vou mostrar para vocês uma coisa muito interessante sobre como fazer vídeos curtos que prendem a atenção das pessoas. O gancho tem três camadas: a frase, a cena e o texto. Fica até o fim que no final eu conto o segredo."
+          "conteudo": "# Roteiro fraco\n### FALA\nOlá pessoal, hoje eu vou mostrar para vocês uma coisa muito interessante sobre como fazer vídeos curtos que prendem a atençêo das pessoas. O gancho tem três camadas: a frase, a cena e o texto. Fica até o fim que no final eu conto o segredo."
         },
         {
           "rot": "Terminal · check the scripts",
@@ -127,7 +127,7 @@
         "abas": [
           {
             "rot": "Captured output (10/19/2026)",
-            "html": "<pre>bom: 0\nfraco: 1\nRESULTADO: APROVADO (falta: teste da lacuna, tese, fontes — revisão humana)\n  ❌ gancho (palavras)        23 palavras: “Olá pessoal, hoje eu vou mostrar para vocês uma coisa muito interessante sobre c” (máx. 9)\n  ❌ abertura proibida        começa com “ola”\n  ❌ palavra-chave no início  “gancho” fora das primeiras 15 palavras (≈ 5 s)\nRESULTADO: REPROVADO</pre><p>The APROVADO on the script flags what the machine doesn't measure: whether the hook opens a gap, whether the thesis takes a side, whether the facts have sources. That part is up to you.</p>"
+            "html": "<pre>bom: 0\nfraco: 1\nRESULTADO: APROVADO (falta: teste da lacuna, tese, fontes — revisêo humana)\n  ❌ gancho (palavras)        23 palavras: “Olá pessoal, hoje eu vou mostrar para vocês uma coisa muito interessante sobre c” (máx. 9)\n  ❌ abertura proibida        começa com “ola”\n  ❌ palavra-chave no início  “gancho” fora das primeiras 15 palavras (≈ 5 s)\nRESULTADO: REPROVADO</pre><p>The APROVADO on the script flags what the machine doesn't measure: whether the hook opens a gap, whether the thesis takes a side, whether the facts have sources. That part is up to you.</p>"
           }
         ]
       }
@@ -153,7 +153,7 @@
         "abas": [
           {
             "rot": "Captured output (10/19/2026)",
-            "html": "<pre>saída: 0\n✅ duração                  20.0s\n✅ formato                  1080x1920\n✅ fps                      30.00\n✅ codec vídeo              h264\n✅ codec áudio              aac\n✅ loudness                 -13.9 LUFS\n✅ sem tela preta inicial   imagem desde o frame 0\n✅ frame 0 (informação)     0.063 de bordas\n⚠️  trechos parados          1 acima de 4 s: 0.0–20.0s — justificar ou quebrar\n⚠️  legendas                 não verificadas (passe --srt ou --words); reel sem legenda conferida não vai pro Nei\nRESULTADO: APROVADO (falta a revisão humana: gancho, prova, pronúncia)</pre><p>The numbers (−13.9 LUFS, 0.063 of edges) are from this machine, ffmpeg 6.1.1; on yours they may vary a little. What matters is the RESULTADO line. The captions warning refers to Nei's flow: in yours, pass <code>--srt</code>.</p>"
+            "html": "<pre>saída: 0\n✅ duraçêo                  20.0s\n✅ formato                  1080x1920\n✅ fps                      30.00\n✅ codec vídeo              h264\n✅ codec áudio              aac\n✅ loudness                 -13.9 LUFS\n✅ sem tela preta inicial   imagem desde o frame 0\n✅ frame 0 (informaçêo)     0.063 de bordas\n⚠️  trechos parados          1 acima de 4 s: 0.0–20.0s — justificar ou quebrar\n⚠️  legendas                 nêo verificadas (passe --srt ou --words); reel sem legenda conferida nêo vai pro Nei\nRESULTADO: APROVADO (falta a revisêo humana: gancho, prova, pronúncia)</pre><p>The numbers (−13.9 LUFS, 0.063 of edges) are from this machine, ffmpeg 6.1.1; on yours they may vary a little. What matters is the RESULTADO line. The captions warning refers to Nei's flow: in yours, pass <code>--srt</code>.</p>"
           },
           {
             "rot": "16:9 fails (captured)",
@@ -203,7 +203,7 @@
         "abas": [
           {
             "rot": "Captured output (10/19/2026)",
-            "html": "<pre>celular    celular — interface de telefone: notificação, busca, fila e enquete SIM/NÃO\ncracha     cracha — alvo, crachás carimbados e cédula; fundo grafite, acento vermelho\ndocumento  documento — papel datilografado, formulário em branco, carimbos e certificado\nextrato    extrato — nota fiscal / extrato bancário com borda picotada e carimbos\nversus     versus — editorial preto e branco com vermelho; foto x foto, telas divididas, chamadas em Anton\nestilo: versus\nmax_seg: 30          # a velocidade da fala é ajustada para caber (até 1,2x)</pre><p>The max_seg is a ceiling: speech is sped up to 1.2× to fit and, if it still doesn't fit, the engine fails instead of cutting.</p>"
+            "html": "<pre>celular    celular — interface de telefone: notificaçêo, busca, fila e enquete SIM/NêO\ncracha     cracha — alvo, crachás carimbados e cédula; fundo grafite, acento vermelho\ndocumento  documento — papel datilografado, formulário em branco, carimbos e certificado\nextrato    extrato — nota fiscal / extrato bancário com borda picotada e carimbos\nversus     versus — editorial preto e branco com vermelho; foto x foto, telas divididas, chamadas em Anton\nestilo: versus\nmax_seg: 30          # a velocidade da fala é ajustada para caber (até 1,2x)</pre><p>The max_seg is a ceiling: speech is sped up to 1.2× to fit and, if it still doesn't fit, the engine fails instead of cutting.</p>"
           }
         ]
       }
@@ -218,7 +218,7 @@
           "titulo": "E1 · Video QA",
           "min": "5 min",
           "texto": "Run \"QA of a rehearsal short\" and \"the same QA on a 16:9 video\".",
-          "pronto": "<code>RESULTADO: APROVADO (falta a revisão humana: gancho, prova, pronúncia)</code> with <code>saída: 0</code>, and then <code>❌ formato                  1920x1080</code>, <code>RESULTADO: REPROVADO</code> and <code>saída: 1</code>."
+          "pronto": "<code>RESULTADO: APROVADO (falta a revisêo humana: gancho, prova, pronúncia)</code> with <code>saída: 0</code>, and then <code>❌ formato                  1920x1080</code>, <code>RESULTADO: REPROVADO</code> and <code>saída: 1</code>."
         },
         {
           "id": "e2",
@@ -266,7 +266,7 @@
           "ref": "diagrama"
         },
         {
-          "p": "Your hook is \"Olá, hoje vou mostrar três truques de edição\" (Portuguese for \"Hello, today I'll show you three editing tricks\"). What does the gate say?",
+          "p": "Your hook is \"Olá, hoje vou mostrar três truques de ediçêo\" (Portuguese for \"Hello, today I'll show you three editing tricks\"). What does the gate say?",
           "opcoes": [
             "Fails for a forbidden opening.",
             "Passes, because it has fewer than 9 words.",

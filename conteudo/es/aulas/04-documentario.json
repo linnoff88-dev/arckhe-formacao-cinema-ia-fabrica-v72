@@ -139,7 +139,7 @@
         "abas": [
           {
             "rot": "Salida capturada (19/10/2026)",
-            "html": "<pre>ERRO /tmp/ensaio-fabrica/a4/pt-b01-errado.json cena 1: cue não está na fala: 'Faz poucas semanas'\naviso exemplos/decisions-jev/pt-b02.json cena 7: 'no visible damage' aparece 2x, casa com a 1ª\n1 erro(s) 1 aviso(s)\nsaída: 1</pre><p>Sin el validador, esa pantalla nunca entraría en el video y solo lo descubrirías después de generar el avatar.</p>"
+            "html": "<pre>ERRO /tmp/ensaio-fabrica/a4/pt-b01-errado.json cena 1: cue nêo está na fala: 'Faz poucas semanas'\naviso exemplos/decisions-jev/pt-b02.json cena 7: 'no visible damage' aparece 2x, casa com a 1ª\n1 erro(s) 1 aviso(s)\nsaída: 1</pre><p>Sin el validador, esa pantalla nunca entraría en el video y solo lo descubrirías después de generar el avatar.</p>"
           }
         ]
       }
@@ -192,7 +192,7 @@
           "titulo": "E2 · Validador",
           "min": "5 min",
           "texto": "Ejecuta \"validar o roteiro visual\" y \"deixa errada\".",
-          "pronto": "<code>OK 1 aviso(s)</code> con <code>saída: 0</code>, y luego <code>cue não está na fala: 'Faz poucas semanas'</code>, <code>1 erro(s) 1 aviso(s)</code> y <code>saída: 1</code>."
+          "pronto": "<code>OK 1 aviso(s)</code> con <code>saída: 0</code>, y luego <code>cue nêo está na fala: 'Faz poucas semanas'</code>, <code>1 erro(s) 1 aviso(s)</code> y <code>saída: 1</code>."
         },
         {
           "id": "e3",
@@ -221,7 +221,7 @@
           "ref": "diagrama"
         },
         {
-          "p": "El validador del refazvideo reprobó con \"cue não está na fala\". ¿Qué quiere decir eso?",
+          "p": "El validador del refazvideo reprobó con \"cue nêo está na fala\". ¿Qué quiere decir eso?",
           "opcoes": [
             "Que el habla pasó del límite de caracteres del bloque.",
             "Que la captura muestra el rostro del presentador original.",

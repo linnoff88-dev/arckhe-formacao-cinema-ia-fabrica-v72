@@ -5,8 +5,8 @@
   "titulo": "Publicar um vídeo: legenda, thumb, três idiomas e YouTube",
   "titulo_curto": "Publicar no YouTube",
   "minutos": 18,
-  "lead": "O último motor da fábrica leva o vídeo pronto ao YouTube com título, descrição, tags, capa e legenda. O yt-pubx tem um modo de ensaio que monta tudo e para antes de enviar. Nesta aula você ensaia sem modelo e sem conta, vê o erro mais comum e fecha o curso com o plano do seu primeiro vídeo.",
-  "objetivo": "ensaiar a publicação com o yt-pubx em modo --dry-run, sem modelo e sem envio, e montar o plano do seu primeiro vídeo.",
+  "lead": "O último motor da fábrica leva o vídeo pronto ao YouTube com título, descriçêo, tags, capa e legenda. O yt-pubx tem um modo de ensaio que monta tudo e para antes de enviar. Nesta aula você ensaia sem modelo e sem conta, vê o erro mais comum e fecha o curso com o plano do seu primeiro vídeo.",
+  "objetivo": "ensaiar a publicaçêo com o yt-pubx em modo --dry-run, sem modelo e sem envio, e montar o plano do seu primeiro vídeo.",
   "competencias": [
     "ensaiar-publicacao",
     "montar-capa-local",
@@ -15,7 +15,7 @@
   "aprende": [
     {
       "icone": "pasta",
-      "t": "Isolar a configuração do ensaio com YTPUBX_CONFIG e YTPUBX_DATA"
+      "t": "Isolar a configuraçêo do ensaio com YTPUBX_CONFIG e YTPUBX_DATA"
     },
     {
       "icone": "portao",
@@ -41,13 +41,13 @@
           "icone": "video",
           "titulo": "Vídeo",
           "sub": "MP4 ou URL",
-          "detalhe": "Um arquivo local ou um link. Vídeo vertical vira Short sozinho e não leva capa."
+          "detalhe": "Um arquivo local ou um link. Vídeo vertical vira Short sozinho e nêo leva capa."
         },
         {
           "icone": "caneta",
           "titulo": "Texto",
           "sub": "título e tags",
-          "detalhe": "Título, descrição e tags à mão (--title, --description, --tags) ou escritos pelo Codex a partir de --contexto ou --legenda. Sem nenhum dos dois, o yt-pubx para."
+          "detalhe": "Título, descriçêo e tags à mêo (--title, --description, --tags) ou escritos pelo Codex a partir de --contexto ou --legenda. Sem nenhum dos dois, o yt-pubx para."
         },
         {
           "icone": "marca",
@@ -69,15 +69,15 @@
           "detalhe": "Sem --dry-run, sobe pela API do YouTube com a credencial do seu canal (yt-pubx auth). Use --privacy private na primeira vez."
         }
       ],
-      "legenda": "yt-pubx 2.4.0 (commit f9842a1, licença MIT), lido em 19/10/2026. Agenda, fila e canal no automático: formação Do chat ao agente."
+      "legenda": "yt-pubx 2.4.0 (commit f9842a1, licença MIT), lido em 19/10/2026. Agenda, fila e canal no automático: formaçêo Do chat ao agente."
     },
     {
       "tipo": "codigo",
       "titulo": "Ensaio sem modelo e sem conta",
-      "sub": "As duas variáveis mandam config e trabalhos para a pasta do ensaio: a sua configuração real não é tocada. Título, descrição e tags à mão e --sem-thumb: nenhum modelo é chamado.",
+      "sub": "As duas variáveis mandam config e trabalhos para a pasta do ensaio: a sua configuraçêo real nêo é tocada. Título, descriçêo e tags à mêo e --sem-thumb: nenhum modelo é chamado.",
       "blocos": [
         {
-          "rot": "Terminal · ensaio de publicação",
+          "rot": "Terminal · ensaio de publicaçêo",
           "icone": "terminal",
           "conteudo": "E=${TMPDIR:-/tmp}/ensaio-fabrica/a8; rm -rf \"$E\"; mkdir -p \"$E\"; cd \"$E\"\ngit clone -q https://github.com/linnoff88-dev/yt-pubx.git && git -C yt-pubx checkout -q f9842a1\nexport YTPUBX_CONFIG=\"$E/config\" YTPUBX_DATA=\"$E/dados\"\nffmpeg -v error -f lavfi -i color=c=0x0c0c10:s=1280x720:d=5 -f lavfi -i anullsrc=r=48000:cl=stereo -t 5 -shortest -c:v libx264 -pix_fmt yuv420p -c:a aac ensaio.mp4\n./yt-pubx/yt-pubx init > /dev/null; echo \"init: $?\"\n./yt-pubx/yt-pubx publicar ensaio.mp4 --dry-run --sem-thumb \\\n  --title \"Ensaio da fábrica\" --description \"Vídeo de ensaio, 5 s, sem envio.\" --tags \"ensaio,fabrica\" 2>&1 \\\n  | grep -E \"^(TÍTULO|TAGS|THUMB)|nada foi enviado\" | sed \"s/^\\[yt-pubx [0-9:]*\\] //\"; echo \"saída: ${PIPESTATUS[0]}\""
         }
@@ -91,7 +91,7 @@
           },
           {
             "rot": "Quando entra o Codex",
-            "html": "<p>No código do commit f9842a1: se faltar título ou descrição, ou se faltar capa (sem --thumb, sem --sem-thumb e sem frase e cena), o yt-pubx pede ao Codex da assinatura. No ensaio do curso, tudo vai à mão para nada sair da máquina.</p>"
+            "html": "<p>No código do commit f9842a1: se faltar título ou descriçêo, ou se faltar capa (sem --thumb, sem --sem-thumb e sem frase e cena), o yt-pubx pede ao Codex da assinatura. No ensaio do curso, tudo vai à mêo para nada sair da máquina.</p>"
           }
         ]
       }
@@ -99,7 +99,7 @@
     {
       "tipo": "codigo",
       "titulo": "O erro mais comum",
-      "sub": "Sem título, sem descrição e sem contexto, o yt-pubx não tem do que escrever e para antes de chamar qualquer modelo.",
+      "sub": "Sem título, sem descriçêo e sem contexto, o yt-pubx nêo tem do que escrever e para antes de chamar qualquer modelo.",
       "blocos": [
         {
           "rot": "Terminal · ensaio sem texto",
@@ -112,7 +112,7 @@
         "abas": [
           {
             "rot": "Saída capturada (19/10/2026)",
-            "html": "<pre>ERRO: sem --title/--description e sem --contexto/--contexto-arquivo/--legenda: não há do que escrever\nsaída: 1</pre><p>A mensagem já diz as três saídas: passar o texto à mão, dar um contexto, ou dar a legenda do vídeo (as duas últimas chamam o Codex).</p>"
+            "html": "<pre>ERRO: sem --title/--description e sem --contexto/--contexto-arquivo/--legenda: nêo há do que escrever\nsaída: 1</pre><p>A mensagem já diz as três saídas: passar o texto à mêo, dar um contexto, ou dar a legenda do vídeo (as duas últimas chamam o Codex).</p>"
           }
         ]
       }
@@ -125,7 +125,7 @@
         {
           "rot": "Terminal · capa local",
           "icone": "terminal",
-          "conteudo": "cd ${TMPDIR:-/tmp}/ensaio-fabrica/a8\nexport YTPUBX_CONFIG=\"$PWD/config\" YTPUBX_DATA=\"$PWD/dados\"\nffmpeg -v error -y -f lavfi -i \"testsrc2=s=1280x720\" -frames:v 1 arte.png\n./yt-pubx/yt-pubx publicar ensaio.mp4 --dry-run --title \"Ensaio da fábrica\" --description \"Vídeo de ensaio, 5 s, sem envio.\" \\\n  --tags \"ensaio,fabrica\" --frase-thumb \"A FÁBRICA\" --cena-thumb \"mesa de edição\" --thumb-arte arte.png 2>&1 \\\n  | grep -E \"^THUMB|nada foi enviado\" | sed -E \"s/^\\[yt-pubx [0-9:]*\\] //; s#/[0-9]{8}-[0-9]{6}-#/<data>-#\"; echo \"saída: ${PIPESTATUS[0]}\"\nf=$(ls dados/trabalhos/*/thumb.jpg | tail -1); python3 -c \"from PIL import Image; print('thumb:', Image.open('$f').size)\""
+          "conteudo": "cd ${TMPDIR:-/tmp}/ensaio-fabrica/a8\nexport YTPUBX_CONFIG=\"$PWD/config\" YTPUBX_DATA=\"$PWD/dados\"\nffmpeg -v error -y -f lavfi -i \"testsrc2=s=1280x720\" -frames:v 1 arte.png\n./yt-pubx/yt-pubx publicar ensaio.mp4 --dry-run --title \"Ensaio da fábrica\" --description \"Vídeo de ensaio, 5 s, sem envio.\" \\\n  --tags \"ensaio,fabrica\" --frase-thumb \"A FÁBRICA\" --cena-thumb \"mesa de ediçêo\" --thumb-arte arte.png 2>&1 \\\n  | grep -E \"^THUMB|nada foi enviado\" | sed -E \"s/^\\[yt-pubx [0-9:]*\\] //; s#/[0-9]{8}-[0-9]{6}-#/<data>-#\"; echo \"saída: ${PIPESTATUS[0]}\"\nf=$(ls dados/trabalhos/*/thumb.jpg | tail -1); python3 -c \"from PIL import Image; print('thumb:', Image.open('$f').size)\""
         }
       ],
       "saida": {
@@ -146,7 +146,7 @@
         {
           "titulo": "Vídeo",
           "texto": [
-            "O explicavideos produz PT, EN e ES quando a config lista os três idiomas e há um arquivo de cenas revisado por idioma (aula 2). Tradução de roteiro e legenda: o tradutor da sua assinatura, nunca um passo sem revisão."
+            "O explicavideos produz PT, EN e ES quando a config lista os três idiomas e há um arquivo de cenas revisado por idioma (aula 2). Traduçêo de roteiro e legenda: o tradutor da sua assinatura, nunca um passo sem revisêo."
           ]
         },
         {
@@ -156,9 +156,9 @@
           ]
         },
         {
-          "titulo": "Publicação",
+          "titulo": "Publicaçêo",
           "texto": [
-            "Uma chamada por idioma, com --idioma e o título daquela língua. Se o canal for só de uma língua, os outros idiomas vão para o canal certo ou para o player do projeto."
+            "Uma chamada por idioma, com --idioma e o título daquela língua. Se o canal for só de uma língua, os outros idiomas vêo para o canal certo ou para o player do projeto."
           ]
         }
       ]
@@ -166,7 +166,7 @@
     {
       "tipo": "mapa",
       "titulo": "O mapa do seu primeiro vídeo",
-      "sub": "As entregas que levam um vídeo seu da ideia ao ensaio de publicação. Clique num degrau para ver o \"pronto quando\".",
+      "sub": "As entregas que levam um vídeo seu da ideia ao ensaio de publicaçêo. Clique num degrau para ver o \"pronto quando\".",
       "degraus": [
         {
           "aula": "mapa",
@@ -193,7 +193,7 @@
           "titulo": "Portões",
           "sub": "QA",
           "saida": "Roteiro e vídeo aprovados nos portões do motor.",
-          "passo": "Short: qa_roteiro e qa_short (aula 5). Reel editado: lint de ritmo (aula 6). Demonstração: conferidor do MP4 (aula 3)."
+          "passo": "Short: qa_roteiro e qa_short (aula 5). Reel editado: lint de ritmo (aula 6). Demonstraçêo: conferidor do MP4 (aula 3)."
         },
         {
           "aula": "avatar",
@@ -201,8 +201,8 @@
           "quando": "Passo 4",
           "titulo": "Avatar",
           "sub": "se houver",
-          "saida": "Termo conferido e portão aberto.",
-          "passo": "Só se o vídeo tiver avatar: o seu termo e o portão da aula 7, antes de qualquer estúdio."
+          "saida": "Termo conferido e portêo aberto.",
+          "passo": "Só se o vídeo tiver avatar: o seu termo e o portêo da aula 7, antes de qualquer estúdio."
         },
         {
           "aula": "publicar",
@@ -219,7 +219,7 @@
         "texto": "Um vídeo seu passado por um motor do ARCKHÉ, conferido nos portões e pronto para enviar.",
         "total": "24 exercícios"
       },
-      "legenda": "Os motores que você não usar neste vídeo ficam para o próximo: o mapa da aula 1 é o ponto de partida de cada vídeo novo."
+      "legenda": "Os motores que você nêo usar neste vídeo ficam para o próximo: o mapa da aula 1 é o ponto de partida de cada vídeo novo."
     },
     {
       "tipo": "pratica",
@@ -230,8 +230,8 @@
           "id": "e1",
           "titulo": "E1 · Ensaio",
           "min": "5 min",
-          "texto": "Rode \"ensaio de publicação\" e \"ensaio sem texto\".",
-          "pronto": "<code>TÍTULO: Ensaio da fábrica</code>, <code>--dry-run: nada foi enviado.</code> com <code>saída: 0</code>, e depois <code>ERRO: sem --title/--description e sem --contexto/--contexto-arquivo/--legenda: não há do que escrever</code> com <code>saída: 1</code>."
+          "texto": "Rode \"ensaio de publicaçêo\" e \"ensaio sem texto\".",
+          "pronto": "<code>TÍTULO: Ensaio da fábrica</code>, <code>--dry-run: nada foi enviado.</code> com <code>saída: 0</code>, e depois <code>ERRO: sem --title/--description e sem --contexto/--contexto-arquivo/--legenda: nêo há do que escrever</code> com <code>saída: 1</code>."
         },
         {
           "id": "e2",
@@ -244,7 +244,7 @@
           "id": "e3",
           "titulo": "E3 · O seu vídeo em ensaio",
           "min": "15 min",
-          "texto": "Na pasta do ensaio (<code>cd ${TMPDIR:-/tmp}/ensaio-fabrica/a8</code>), exporte as duas variáveis como no bloco (<code>export YTPUBX_CONFIG=\"$PWD/config\" YTPUBX_DATA=\"$PWD/dados\"</code>) e rode o mesmo publicar com um vídeo seu (o da aula 3 serve), o seu título, a sua descrição e as suas tags.",
+          "texto": "Na pasta do ensaio (<code>cd ${TMPDIR:-/tmp}/ensaio-fabrica/a8</code>), exporte as duas variáveis como no bloco (<code>export YTPUBX_CONFIG=\"$PWD/config\" YTPUBX_DATA=\"$PWD/dados\"</code>) e rode o mesmo publicar com um vídeo seu (o da aula 3 serve), o seu título, a sua descriçêo e as suas tags.",
           "pronto": "<code>./yt-pubx/yt-pubx publicar [seu.mp4] --dry-run --sem-thumb --title \"…\" --description \"…\" --tags \"…\" 2>&1 | grep -c \"nada foi enviado\"; echo \"saída: ${PIPESTATUS[0]}\"</code> → <code>1</code> e <code>saída: 0</code>."
         }
       ]
@@ -265,15 +265,15 @@
           "aula": "explicativo"
         },
         {
-          "titulo": "Aula 3 · Demonstração de app",
+          "titulo": "Aula 3 · Demonstraçêo de app",
           "aula": "demonstracao"
         },
         {
-          "titulo": "Aula 4 · Documentário e versão própria",
+          "titulo": "Aula 4 · Documentário e versêo própria",
           "aula": "documentario"
         },
         {
-          "titulo": "Aula 5 · Shorts com portão",
+          "titulo": "Aula 5 · Shorts com portêo",
           "aula": "shorts"
         },
         {
@@ -305,22 +305,22 @@
     {
       "tipo": "quiz",
       "titulo": "Teste da aula",
-      "sub": "A explicação aparece depois da sua resposta.",
+      "sub": "A explicaçêo aparece depois da sua resposta.",
       "perguntas": [
         {
           "p": "Para que servem YTPUBX_CONFIG e YTPUBX_DATA no ensaio?",
           "opcoes": [
             "Para enviar o vídeo mais rápido ao YouTube.",
-            "Para escolher o idioma da descrição gerada.",
+            "Para escolher o idioma da descriçêo gerada.",
             "Para guardar config e trabalhos do ensaio numa pasta própria.",
             "Para desligar o Codex em todos os comandos."
           ],
           "certa": 2,
-          "explica": "As duas variáveis mudam onde o yt-pubx lê a config e grava os trabalhos. O ensaio fica isolado; o que desliga o Codex é passar texto e capa à mão.",
+          "explica": "As duas variáveis mudam onde o yt-pubx lê a config e grava os trabalhos. O ensaio fica isolado; o que desliga o Codex é passar texto e capa à mêo.",
           "ref": "codigo"
         },
         {
-          "p": "Qual destes ensaios NÃO chama modelo nenhum?",
+          "p": "Qual destes ensaios NêO chama modelo nenhum?",
           "opcoes": [
             "--dry-run com --contexto \"vídeo sobre X\".",
             "--dry-run com --legenda video.srt e sem título.",
@@ -328,11 +328,11 @@
             "--dry-run com --title, --description, --tags e --sem-thumb."
           ],
           "certa": 3,
-          "explica": "Com texto e capa resolvidos à mão, não falta nada para o Codex escrever. Contexto ou legenda sem título fazem o yt-pubx pedir o texto ao modelo; só o MP4 dá erro.",
+          "explica": "Com texto e capa resolvidos à mêo, nêo falta nada para o Codex escrever. Contexto ou legenda sem título fazem o yt-pubx pedir o texto ao modelo; só o MP4 dá erro.",
           "ref": "codigo"
         },
         {
-          "p": "Você vai publicar de verdade pela primeira vez. Qual opção usar?",
+          "p": "Você vai publicar de verdade pela primeira vez. Qual opçêo usar?",
           "opcoes": [
             "--privacy private.",
             "--agendar para daqui a um minuto.",
@@ -355,7 +355,7 @@
         },
         {
           "t": "Sem modelo",
-          "texto": "título, descrição, tags e capa à mão: nada sai da máquina."
+          "texto": "título, descriçêo, tags e capa à mêo: nada sai da máquina."
         },
         {
           "t": "Plano",
@@ -368,12 +368,12 @@
       "titulo": "Próximo passo",
       "links": [
         {
-          "t": "Curso 5 da formação: sites cARCKHÉtográficos (o vídeo vira página)",
+          "t": "Curso 5 da formaçêo: sites cARCKHÉtográficos (o vídeo vira página)",
           "href": "https://linnoff88-dev.github.io/
           "icone": "seta"
         },
         {
-          "t": "Agenda, fila e canal no automático (formação Do chat ao agente)",
+          "t": "Agenda, fila e canal no automático (formaçêo Do chat ao agente)",
           "href": "https://linnoff88-dev.github.io/
           "icone": "calendario"
         },

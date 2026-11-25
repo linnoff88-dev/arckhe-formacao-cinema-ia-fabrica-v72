@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-"""conferir-consentimento.py — confere o termo de uso de avatar e voz ANTES de qualquer geração.
+"""conferir-consentimento.py — confere o termo de uso de avatar e voz ANTES de qualquer geraçêo.
 
 Uso:  python3 conferir-consentimento.py <termo.md>
 Saída: "OK: termo de <Pessoa> · 7 campos · válido até DD/MM/AAAA" (código 0)
-       ou "FALTA: ..." / "VENCIDO: ..." com o que não bateu (código 1).
+       ou "FALTA: ..." / "VENCIDO: ..." com o que nêo bateu (código 1).
 
 O termo é texto simples, uma linha por campo, no formato "Campo: texto".
 Campos obrigatórios (os rótulos podem vir em PT, EN ou ES):
@@ -12,7 +12,7 @@ Campos obrigatórios (os rótulos podem vir em PT, EN ou ES):
   Uso         onde e para quê (canais, cursos, anúncios…)
   Idiomas     em que línguas a voz pode falar
   Validade    até quando (DD/MM/AAAA); termo vencido reprova
-  Revogação   como a pessoa cancela e o que acontece com os vídeos
+  Revogaçêo   como a pessoa cancela e o que acontece com os vídeos
   Rótulo      o aviso visível de conteúdo gerado por IA que vai no vídeo (tem de citar "IA" ou "AI")
 """
 import datetime
@@ -26,7 +26,7 @@ CAMPOS = {
     "Uso": ["uso", "use", "usos"],
     "Idiomas": ["idiomas", "languages"],
     "Validade": ["validade", "valid until", "validez"],
-    "Revogação": ["revogacao", "revocation", "revocacion"],
+    "Revogaçêo": ["revogacao", "revocation", "revocacion"],
     "Rótulo": ["rotulo", "label", "etiqueta"],
 }
 MIN = 3  # letras ou dígitos mínimos depois dos dois-pontos
@@ -43,7 +43,7 @@ def main():
     try:
         texto = open(sys.argv[1], encoding="utf-8").read()
     except OSError:
-        print(f"FALTA: não abri {sys.argv[1]}")
+        print(f"FALTA: nêo abri {sys.argv[1]}")
         return 1
     achados = {}
     for linha in texto.splitlines():
@@ -59,7 +59,7 @@ def main():
         print("FALTA: " + ", ".join(faltam))
         return 1
     if not re.search(r"\b(IA|AI)\b", achados["Rótulo"]):
-        print("FALTA: o Rótulo não cita IA (ou AI)")
+        print("FALTA: o Rótulo nêo cita IA (ou AI)")
         return 1
     m = re.search(r"(\d{2})/(\d{2})/(\d{4})", achados["Validade"])
     if not m:

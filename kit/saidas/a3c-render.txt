@@ -2,6 +2,6 @@
   ◇ 0 issues across 9 sample(s)
   ◇ 0 errors, 0 warnings
 render: 0
-duração pedida: 30.389 s
+duraçêo pedida: 30.389 s
 OK: 30,4 s · 1920×1080 · 30 fps · com áudio
 saída: 0

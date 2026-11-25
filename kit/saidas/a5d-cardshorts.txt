@@ -1,4 +1,4 @@
-celular    celular — interface de telefone: notificação, busca, fila e enquete SIM/NÃO
+celular    celular — interface de telefone: notificaçêo, busca, fila e enquete SIM/NêO
 cracha     cracha — alvo, crachás carimbados e cédula; fundo grafite, acento vermelho
 documento  documento — papel datilografado, formulário em branco, carimbos e certificado
 extrato    extrato — nota fiscal / extrato bancário com borda picotada e carimbos

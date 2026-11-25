@@ -104,7 +104,7 @@
         {
           "rot": "Terminal · check the rhythm",
           "icone": "terminal",
-          "conteudo": "K=~/projetos/formacao-cARCKHÉ-ia-fabrica-v72/kit\ncd ${TMPDIR:-/tmp}/ensaio-fabrica/a6; L=skill/forja-reel/assets/motor-scripts/lint-timeline.py\npython3 $L \"$K/exemplos/a6-ritmo/ritmo-ok.html\" | grep -E \"^Duração|ERROR\"; echo \"saída: ${PIPESTATUS[0]}\"\npython3 $L \"$K/exemplos/a6-ritmo/ritmo-buraco.html\" | grep -E \"^Duração|ERROR\"; echo \"saída: ${PIPESTATUS[0]}\""
+          "conteudo": "K=~/projetos/formacao-cARCKHÉ-ia-fabrica-v72/kit\ncd ${TMPDIR:-/tmp}/ensaio-fabrica/a6; L=skill/forja-reel/assets/motor-scripts/lint-timeline.py\npython3 $L \"$K/exemplos/a6-ritmo/ritmo-ok.html\" | grep -E \"^Duraçêo|ERROR\"; echo \"saída: ${PIPESTATUS[0]}\"\npython3 $L \"$K/exemplos/a6-ritmo/ritmo-buraco.html\" | grep -E \"^Duraçêo|ERROR\"; echo \"saída: ${PIPESTATUS[0]}\""
         }
       ],
       "saida": {
@@ -112,7 +112,7 @@
         "abas": [
           {
             "rot": "Captured output (10/19/2026)",
-            "html": "<pre>Duração 15.00s · 1080x1920 · 10 beats · densidade média 5.33 beats/10s\nsaída: 0\nDuração 15.00s · 1080x1920 · 5 beats · densidade média 2.67 beats/10s\nERRORS\nL2.50 ERROR Buraco de 6.5s entre 2.5s e 9.0s — coloque um beat (snap/selo/B-roll) sincronizado com uma palavra-âncora\nsaída: 1</pre><p>The first one passes with a warning (cut off here): the last 10 s window has only 5 s of video and always looks slow. The second one fails with the line and the exact time of the gap.</p>"
+            "html": "<pre>Duraçêo 15.00s · 1080x1920 · 10 beats · densidade média 5.33 beats/10s\nsaída: 0\nDuraçêo 15.00s · 1080x1920 · 5 beats · densidade média 2.67 beats/10s\nERRORS\nL2.50 ERROR Buraco de 6.5s entre 2.5s e 9.0s — coloque um beat (snap/selo/B-roll) sincronizado com uma palavra-âncora\nsaída: 1</pre><p>The first one passes with a warning (cut off here): the last 10 s window has only 5 s of video and always looks slow. The second one fails with the line and the exact time of the gap.</p>"
           }
         ]
       }

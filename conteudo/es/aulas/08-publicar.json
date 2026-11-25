@@ -112,7 +112,7 @@
         "abas": [
           {
             "rot": "Salida capturada (19/10/2026)",
-            "html": "<pre>ERRO: sem --title/--description e sem --contexto/--contexto-arquivo/--legenda: não há do que escrever\nsaída: 1</pre><p>El mensaje ya indica las tres salidas: pasar el texto a mano, dar un contexto, o dar la leyenda del video (las dos últimas llaman a Codex).</p>"
+            "html": "<pre>ERRO: sem --title/--description e sem --contexto/--contexto-arquivo/--legenda: nêo há do que escrever\nsaída: 1</pre><p>El mensaje ya indica las tres salidas: pasar el texto a mano, dar un contexto, o dar la leyenda del video (las dos últimas llaman a Codex).</p>"
           }
         ]
       }
@@ -125,7 +125,7 @@
         {
           "rot": "Terminal · portada local",
           "icone": "terminal",
-          "conteudo": "cd ${TMPDIR:-/tmp}/ensaio-fabrica/a8\nexport YTPUBX_CONFIG=\"$PWD/config\" YTPUBX_DATA=\"$PWD/dados\"\nffmpeg -v error -y -f lavfi -i \"testsrc2=s=1280x720\" -frames:v 1 arte.png\n./yt-pubx/yt-pubx publicar ensaio.mp4 --dry-run --title \"Ensaio da fábrica\" --description \"Vídeo de ensaio, 5 s, sem envio.\" \\\n  --tags \"ensaio,fabrica\" --frase-thumb \"A FÁBRICA\" --cena-thumb \"mesa de edição\" --thumb-arte arte.png 2>&1 \\\n  | grep -E \"^THUMB|nada foi enviado\" | sed -E \"s/^\\[yt-pubx [0-9:]*\\] //; s#/[0-9]{8}-[0-9]{6}-#/<data>-#\"; echo \"saída: ${PIPESTATUS[0]}\"\nf=$(ls dados/trabalhos/*/thumb.jpg | tail -1); python3 -c \"from PIL import Image; print('thumb:', Image.open('$f').size)\""
+          "conteudo": "cd ${TMPDIR:-/tmp}/ensaio-fabrica/a8\nexport YTPUBX_CONFIG=\"$PWD/config\" YTPUBX_DATA=\"$PWD/dados\"\nffmpeg -v error -y -f lavfi -i \"testsrc2=s=1280x720\" -frames:v 1 arte.png\n./yt-pubx/yt-pubx publicar ensaio.mp4 --dry-run --title \"Ensaio da fábrica\" --description \"Vídeo de ensaio, 5 s, sem envio.\" \\\n  --tags \"ensaio,fabrica\" --frase-thumb \"A FÁBRICA\" --cena-thumb \"mesa de ediçêo\" --thumb-arte arte.png 2>&1 \\\n  | grep -E \"^THUMB|nada foi enviado\" | sed -E \"s/^\\[yt-pubx [0-9:]*\\] //; s#/[0-9]{8}-[0-9]{6}-#/<data>-#\"; echo \"saída: ${PIPESTATUS[0]}\"\nf=$(ls dados/trabalhos/*/thumb.jpg | tail -1); python3 -c \"from PIL import Image; print('thumb:', Image.open('$f').size)\""
         }
       ],
       "saida": {
@@ -230,8 +230,8 @@
           "id": "e1",
           "titulo": "E1 · Ensayo",
           "min": "5 min",
-          "texto": "Ejecuta \"ensaio de publicação\" y \"ensaio sem texto\".",
-          "pronto": "<code>TÍTULO: Ensaio da fábrica</code>, <code>--dry-run: nada foi enviado.</code> con <code>saída: 0</code>, y después <code>ERRO: sem --title/--description e sem --contexto/--contexto-arquivo/--legenda: não há do que escrever</code> con <code>saída: 1</code>."
+          "texto": "Ejecuta \"ensaio de publicaçêo\" y \"ensaio sem texto\".",
+          "pronto": "<code>TÍTULO: Ensaio da fábrica</code>, <code>--dry-run: nada foi enviado.</code> con <code>saída: 0</code>, y después <code>ERRO: sem --title/--description e sem --contexto/--contexto-arquivo/--legenda: nêo há do que escrever</code> con <code>saída: 1</code>."
         },
         {
           "id": "e2",

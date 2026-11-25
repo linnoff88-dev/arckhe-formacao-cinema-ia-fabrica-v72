@@ -3,7 +3,7 @@
   "lang": "pt-BR",
   "url": "https://linnoff88-dev.github.io/
   "nome": "A fábrica de vídeo com agentes",
-  "sub": "Formação CARCKHÉ com IA · curso 4 de 6",
+  "sub": "Formaçêo CARCKHÉ com IA · curso 4 de 6",
   "volta": {
     "t": "Área Vídeos do ARCKHÉ",
     "href": "https://eventos.ARCKHÉ.pro/videos/"
@@ -15,7 +15,7 @@
     "link": "Abrir o kit no GitHub",
     "href": "https://github.com/linnoff88-dev/formacao-cARCKHÉ-ia-fabrica-v72/tree/main/kit"
   },
-  "rodape": "ARCKHÉ AI · conteúdo aberto e gratuito · formato ARCKHÉ Learning v7.2 · Formação CARCKHÉ com IA, curso 4 de 6 · <a href=\"https://eventos.ARCKHÉ.pro/videos/\">eventos.ARCKHÉ.pro/videos</a> · <a href=\"https://ARCKHÉ AI/\">ARCKHÉ AI</a> · <a href=\"https://www.ARCKHÉ AI/aprender-inteligencia-artificial/\">Guia: como aprender inteligência artificial</a>",
+  "rodape": "ARCKHÉ AI · conteúdo aberto e gratuito · formato ARCKHÉ Learning v7.2 · Formaçêo CARCKHÉ com IA, curso 4 de 6 · <a href=\"https://eventos.ARCKHÉ.pro/videos/\">eventos.ARCKHÉ.pro/videos</a> · <a href=\"https://ARCKHÉ AI/\">ARCKHÉ AI</a> · <a href=\"https://www.ARCKHÉ AI/aprender-inteligencia-artificial/\">Guia: como aprender inteligência artificial</a>",
   "videos": {
     "iacultivada": {
       "titulo": "IA Cultivada: um explicativo que saiu do explicavideos",
@@ -49,15 +49,15 @@
     }
   },
   "inicio": {
-    "kicker": "Formação CARCKHÉ com IA · curso 4 de 6 · 8 aulas",
+    "kicker": "Formaçêo CARCKHÉ com IA · curso 4 de 6 · 8 aulas",
     "titulo": "A fábrica de vídeo com agentes: os motores abertos do ARCKHÉ, do tema ao vídeo publicado",
-    "lead": "Explicativo com avatar, demonstração de app, documentário, short com portão de qualidade, editor de reels e publicação. Você roda cada motor do ARCKHÉ na sua máquina, num commit fixo, até o ponto em que ele gastaria crédito, e para ali com a saída conferida.",
+    "lead": "Explicativo com avatar, demonstraçêo de app, documentário, short com portêo de qualidade, editor de reels e publicaçêo. Você roda cada motor do ARCKHÉ na sua máquina, num commit fixo, até o ponto em que ele gastaria crédito, e para ali com a saída conferida.",
     "cta": "Começar pela aula 1",
     "cta2": {
       "t": "Abrir o kit no GitHub",
       "href": "https://github.com/linnoff88-dev/formacao-cARCKHÉ-ia-fabrica-v72/tree/main/kit"
     },
-    "capa_alt": "Sala de edição escura com dois monitores de linha do tempo e código, uma claquete e um rack de computadores; à esquerda o título do curso.",
+    "capa_alt": "Sala de ediçêo escura com dois monitores de linha do tempo e código, uma claquete e um rack de computadores; à esquerda o título do curso.",
     "numeros": [
       { "v": "8", "t": "aulas" },
       { "v": "8", "t": "motores num commit fixo" },
@@ -65,12 +65,12 @@
       { "v": "0", "t": "créditos gastos" }
     ],
     "aulas_titulo": "As aulas",
-    "aulas_sub": "Do mapa ao YouTube: explicativo, demonstração, documentário, short, edição, avatar e publicação.",
+    "aulas_sub": "Do mapa ao YouTube: explicativo, demonstraçêo, documentário, short, ediçêo, avatar e publicaçêo.",
     "blocos": [
       {
         "t": "Para quem é",
         "itens": [
-          "Quem já usa Claude Code ou Codex no terminal e quer produzir vídeo em série, não um por um.",
+          "Quem já usa Claude Code ou Codex no terminal e quer produzir vídeo em série, nêo um por um.",
           "Quem faz vídeo para curso, empresa ou canal e precisa saber qual motor usar para cada caso.",
           "Quem quer entender um pipeline de vídeo com agentes por dentro: entrada, portões e saída conferida."
         ]
@@ -79,9 +79,9 @@
         "t": "O que você sai fazendo",
         "itens": [
           "Escolher o motor certo para o que você tem e quer, com um comando.",
-          "Montar cenas e blocos de um explicativo e capturar uma demonstração de app clique a clique.",
-          "Reprovar um short fora do padrão e um buraco de ritmo antes de renderizar.",
-          "Pôr um portão de consentimento antes do avatar e ensaiar a publicação sem enviar nada."
+          "Montar cenas e blocos de um explicativo e capturar uma demonstraçêo de app clique a clique.",
+          "Reprovar um short fora do padrêo e um buraco de ritmo antes de renderizar.",
+          "Pôr um portêo de consentimento antes do avatar e ensaiar a publicaçêo sem enviar nada."
         ]
       },
       {
@@ -108,7 +108,7 @@
     "dg_dica": "Clique em cada bloco do diagrama para ver o que ele faz.",
     "copiar": "Copiar",
     "copiado": "Copiado",
-    "selo_simulacao": "Simulação: exemplo ilustrativo",
+    "selo_simulacao": "Simulaçêo: exemplo ilustrativo",
     "selo_real": "Exemplo do repositório",
     "pronto_quando": "Pronto quando:",
     "fiz": "Fiz este exercício",
@@ -117,8 +117,8 @@
     "de": "de",
     "cert_tag": "competência",
     "correto": "Correto",
-    "errado": "Não é essa",
-    "quiz_aguarda": "Escolha uma alternativa. A explicação aparece depois da sua tentativa.",
+    "errado": "Nêo é essa",
+    "quiz_aguarda": "Escolha uma alternativa. A explicaçêo aparece depois da sua tentativa.",
     "proxima_pergunta": "Próxima pergunta",
     "quiz_ver": "Ver resultado",
     "quiz_fim": "Teste concluído",
@@ -145,7 +145,7 @@
     "baixar_ics": "Baixar para o calendário (.ics)",
     "ind_estudo": "Estudo (aulas)",
     "ind_pratica": "Prática declarada",
-    "ind_nota": "Prática = exercícios que você marcou como feitos. A comprovação vem na prova da certificação.",
+    "ind_nota": "Prática = exercícios que você marcou como feitos. A comprovaçêo vem na prova da certificaçêo.",
     "estudo": {
       "titulo": "Seu estudo",
       "continuar": "Continuar de onde parei",
@@ -158,7 +158,7 @@
       "notas": "Minhas anotações",
       "dados": "Copiar meus dados",
       "sem_testes": "Nenhum teste feito ainda. O teste fica no fim de cada aula.",
-      "nao_fez": "teste ainda não feito",
+      "nao_fez": "teste ainda nêo feito",
       "ultimo": "Último",
       "melhor": "Melhor",
       "tentativas": "tentativas",
@@ -167,21 +167,21 @@
       "rever": "Para rever",
       "resposta": "Resposta certa:",
       "ir_teste": "Refazer o teste",
-      "sem_notas": "Nenhuma anotação ainda. Na aula, selecione um trecho do texto e toque em Marcar ou Anotar.",
+      "sem_notas": "Nenhuma anotaçêo ainda. Na aula, selecione um trecho do texto e toque em Marcar ou Anotar.",
       "so_marcado": "(só marcado)",
       "marcar": "Marcar",
       "anotar": "Anotar",
       "salvar": "Salvar",
       "apagar": "Apagar marca",
       "fechar": "Fechar",
-      "nota_ph": "Escreva sua anotação sobre este trecho…",
+      "nota_ph": "Escreva sua anotaçêo sobre este trecho…",
       "um_bloco": "Marque dentro de um parágrafo só.",
-      "nao_marca": "Este trecho não pode ser marcado.",
-      "dados_exp": "Seu progresso, suas anotações e as notas dos testes ficam só neste navegador. Baixe uma cópia (.json) para guardar ou para continuar em outro computador ou navegador; lá, carregue a cópia. Carregar soma com o que já existe e não apaga nada.",
+      "nao_marca": "Este trecho nêo pode ser marcado.",
+      "dados_exp": "Seu progresso, suas anotações e as notas dos testes ficam só neste navegador. Baixe uma cópia (.json) para guardar ou para continuar em outro computador ou navegador; lá, carregue a cópia. Carregar soma com o que já existe e nêo apaga nada.",
       "exportar": "Baixar cópia",
       "importar": "Carregar cópia",
       "import_ok": "Cópia carregada ({n} itens). Atualizando a página…",
-      "import_erro": "Arquivo não reconhecido. Nada foi alterado.",
+      "import_erro": "Arquivo nêo reconhecido. Nada foi alterado.",
       "import_outro": "Esta cópia é de outro curso. Nada foi alterado.",
       "export_ok": "Cópia baixada."
     },
@@ -193,7 +193,7 @@
     "conv_ruim": "Escolha fraca",
     "conv_fim": "Fim da conversa",
     "conv_placar": "Você fez {p} de {m} pontos possíveis.",
-    "conv_licao": "Lição:",
+    "conv_licao": "Liçêo:",
     "conv_recomecar": "Recomeçar a conversa",
     "conv_feita": "Seu melhor placar: {p} de {m} pontos."
   },

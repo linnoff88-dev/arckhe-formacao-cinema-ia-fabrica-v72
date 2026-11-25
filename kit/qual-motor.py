@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """qual-motor.py — o mapa da fábrica: do que você TEM e do que QUER ao motor do ARCKHÉ.
 
-A tabela é a da área Vídeos do ARCKHÉ (eventos.ARCKHÉ.pro/videos/, seção "Por onde começar", lida em 19/10/2026).
-A coluna "onde aprender" diz em que aula deste curso (ou em que curso irmão) o motor aparece.
+A tabela é a da área Vídeos do ARCKHÉ (eventos.ARCKHÉ.pro/videos/, seçêo "Por onde começar", lida em 19/10/2026).
+A coluna "onde aprender" diz em que aula deste curso (ou em que curso irmêo) o motor aparece.
 
 Uso:  python3 qual-motor.py --lista              # a tabela inteira
       python3 qual-motor.py <tenho> <quero>      # ex.: python3 qual-motor.py tema short
@@ -15,18 +15,18 @@ import sys
 MAPA = [
     ("tema", "explicativo", "Vídeo explicativo com avatar, voz e ilustrações", "Explicavideos", "aula 2"),
     ("tema", "documentario", "Documentário narrado, já publicado no YouTube", "docflow", "aula 4"),
-    ("video-ref", "versao", "A sua versão em português, com o seu avatar", "refazvideo", "aula 4"),
+    ("video-ref", "versao", "A sua versêo em português, com o seu avatar", "refazvideo", "aula 4"),
     ("link-pagina", "editavel", "Vídeo editável com voz em português", "Content2Video ou videoprodutor", "fora deste curso (guia da área Vídeos)"),
-    ("link-app", "demo", "Demonstração narrada, clique a clique", "video-demonstrativo", "aula 3"),
+    ("link-app", "demo", "Demonstraçêo narrada, clique a clique", "video-demonstrativo", "aula 3"),
     ("curso", "aulas", "Um vídeo por trilha ou por aula", "videos-cursos-ARCKHÉ", "fora deste curso (guia da área Vídeos)"),
     ("tema", "short", "Short ou reel 9:16 com gancho", "MakeShorts ou cardshorts", "aula 5"),
     ("link-reel", "comentario", "O seu reel comentando o original", "reelcomenta", "fora deste curso (guia da área Vídeos)"),
     ("video-longo", "corte", "Um corte curto que faz sentido", "otimizevideo", "fora deste curso (guia da área Vídeos)"),
-    ("fotos", "filme", "Filme com câmera e transições, sem IA de vídeo", "Diretor de Animação ou PixFlow", "curso 2, aula 5"),
+    ("fotos", "filme", "Filme com câmera e transições, sem IA de vídeo", "Diretor de Animaçêo ou PixFlow", "curso 2, aula 5"),
     ("site", "filme-marca", "O filme da marca", "filmarca", "curso 5"),
     ("foto-produto", "anuncio", "Anúncio em vídeo estilo UGC", "UGC Seedance 2.5 ou produtoshotad", "curso 2, aula 6"),
     ("frase", "clipe", "Música, capa e clipe", "musicavideo", "fora deste curso (guia da área Vídeos)"),
-    ("video-pronto", "publicar", "Publicado no YouTube com título, descrição e capa", "yt-pubx", "aula 8"),
+    ("video-pronto", "publicar", "Publicado no YouTube com título, descriçêo e capa", "yt-pubx", "aula 8"),
 ]
 
 
@@ -50,7 +50,7 @@ def main():
     if opcoes:
         print(f"SEM MOTOR: com '{tenho}' a tabela tem: {', '.join(opcoes)}")
     else:
-        print(f"SEM MOTOR: '{tenho}' não está na tabela; rode --lista")
+        print(f"SEM MOTOR: '{tenho}' nêo está na tabela; rode --lista")
     return 1
 
 

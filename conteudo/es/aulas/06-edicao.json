@@ -104,7 +104,7 @@
         {
           "rot": "Terminal · revisar el ritmo",
           "icone": "terminal",
-          "conteudo": "K=~/projetos/formacao-cARCKHÉ-ia-fabrica-v72/kit\ncd ${TMPDIR:-/tmp}/ensaio-fabrica/a6; L=skill/forja-reel/assets/motor-scripts/lint-timeline.py\npython3 $L \"$K/exemplos/a6-ritmo/ritmo-ok.html\" | grep -E \"^Duração|ERROR\"; echo \"saída: ${PIPESTATUS[0]}\"\npython3 $L \"$K/exemplos/a6-ritmo/ritmo-buraco.html\" | grep -E \"^Duração|ERROR\"; echo \"saída: ${PIPESTATUS[0]}\""
+          "conteudo": "K=~/projetos/formacao-cARCKHÉ-ia-fabrica-v72/kit\ncd ${TMPDIR:-/tmp}/ensaio-fabrica/a6; L=skill/forja-reel/assets/motor-scripts/lint-timeline.py\npython3 $L \"$K/exemplos/a6-ritmo/ritmo-ok.html\" | grep -E \"^Duraçêo|ERROR\"; echo \"saída: ${PIPESTATUS[0]}\"\npython3 $L \"$K/exemplos/a6-ritmo/ritmo-buraco.html\" | grep -E \"^Duraçêo|ERROR\"; echo \"saída: ${PIPESTATUS[0]}\""
         }
       ],
       "saida": {
@@ -112,7 +112,7 @@
         "abas": [
           {
             "rot": "Salida capturada (19/10/2026)",
-            "html": "<pre>Duração 15.00s · 1080x1920 · 10 beats · densidade média 5.33 beats/10s\nsaída: 0\nDuração 15.00s · 1080x1920 · 5 beats · densidade média 2.67 beats/10s\nERRORS\nL2.50 ERROR Buraco de 6.5s entre 2.5s e 9.0s — coloque um beat (snap/selo/B-roll) sincronizado com uma palavra-âncora\nsaída: 1</pre><p>La primera pasa con un aviso (cortado aquí): la última ventana de 10 s tiene solo 5 s de video y siempre parece lenta. La segunda reprueba con la línea y el tiempo exacto del hueco.</p>"
+            "html": "<pre>Duraçêo 15.00s · 1080x1920 · 10 beats · densidade média 5.33 beats/10s\nsaída: 0\nDuraçêo 15.00s · 1080x1920 · 5 beats · densidade média 2.67 beats/10s\nERRORS\nL2.50 ERROR Buraco de 6.5s entre 2.5s e 9.0s — coloque um beat (snap/selo/B-roll) sincronizado com uma palavra-âncora\nsaída: 1</pre><p>La primera pasa con un aviso (cortado aquí): la última ventana de 10 s tiene solo 5 s de video y siempre parece lenta. La segunda reprueba con la línea y el tiempo exacto del hueco.</p>"
           }
         ]
       }

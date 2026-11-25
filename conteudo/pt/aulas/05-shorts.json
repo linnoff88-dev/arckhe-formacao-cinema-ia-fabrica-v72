@@ -2,11 +2,11 @@
   "slug": "shorts",
   "num": 5,
   "menu": "Shorts",
-  "titulo": "Shorts com portão de qualidade: gancho, corte 9:16 e QA",
-  "titulo_curto": "Shorts com portão",
+  "titulo": "Shorts com portêo de qualidade: gancho, corte 9:16 e QA",
+  "titulo_curto": "Shorts com portêo",
   "minutos": 18,
-  "lead": "Short que perde os três primeiros segundos não tem segunda chance. O MakeShorts põe dois portões no caminho: um no roteiro, que mede o gancho antes de gravar, e um no vídeo, que mede formato, som e tela parada antes de publicar. Nesta aula você passa e reprova nos dois, com arquivos de ensaio.",
-  "objetivo": "escrever um gancho que passa no portão do roteiro e reprovar ou aprovar um vídeo 9:16 com o QA do makeshorts.",
+  "lead": "Short que perde os três primeiros segundos nêo tem segunda chance. O MakeShorts põe dois portões no caminho: um no roteiro, que mede o gancho antes de gravar, e um no vídeo, que mede formato, som e tela parada antes de publicar. Nesta aula você passa e reprova nos dois, com arquivos de ensaio.",
+  "objetivo": "escrever um gancho que passa no portêo do roteiro e reprovar ou aprovar um vídeo 9:16 com o QA do makeshorts.",
   "competencias": [
     "escrever-gancho-em-camadas",
     "conferir-roteiro-de-short",
@@ -19,11 +19,11 @@
     },
     {
       "icone": "portao",
-      "t": "O portão do roteiro: gancho curto, abertura proibida, palavra-chave no começo"
+      "t": "O portêo do roteiro: gancho curto, abertura proibida, palavra-chave no começo"
     },
     {
       "icone": "check",
-      "t": "O portão do vídeo: 1080×1920, 30 fps, h264/aac, −14 LUFS, sem tela preta"
+      "t": "O portêo do vídeo: 1080×1920, 30 fps, h264/aac, −14 LUFS, sem tela preta"
     },
     {
       "icone": "camadas",
@@ -46,8 +46,8 @@
         {
           "icone": "arquivo",
           "titulo": "Roteiro",
-          "sub": "seção FALA",
-          "detalhe": "Um Markdown com a fala na seção ### FALA. Perfil divulgação: 60 a 125 palavras."
+          "sub": "seçêo FALA",
+          "detalhe": "Um Markdown com a fala na seçêo ### FALA. Perfil divulgaçêo: 60 a 125 palavras."
         },
         {
           "icone": "portao",
@@ -59,14 +59,14 @@
           "icone": "video",
           "titulo": "Vídeo 9:16",
           "sub": "corte",
-          "detalhe": "Gravação, voz local ou avatar, b-roll real, edição vertical. Neste curso o vídeo é um ensaio feito com ffmpeg."
+          "detalhe": "Gravaçêo, voz local ou avatar, b-roll real, ediçêo vertical. Neste curso o vídeo é um ensaio feito com ffmpeg."
         },
         {
           "icone": "check",
           "titulo": "QA do vídeo",
           "sub": "qa_short.py",
           "forte": true,
-          "detalhe": "Mede com ffmpeg: duração do perfil, 1080×1920, 30 fps, h264 e aac, loudness −14 ±1 LUFS, sem tela preta no começo, trechos parados. Falha fecha: medida que não deu, reprova."
+          "detalhe": "Mede com ffmpeg: duraçêo do perfil, 1080×1920, 30 fps, h264 e aac, loudness −14 ±1 LUFS, sem tela preta no começo, trechos parados. Falha fecha: medida que nêo deu, reprova."
         }
       ],
       "legenda": "makeshorts no commit 52eb799, contrato de QA 1.2.1."
@@ -79,7 +79,7 @@
         {
           "titulo": "Frase",
           "texto": [
-            "O que você diz nos primeiros dois segundos. Entra direto, com o mínimo de contexto: nada de apresentação."
+            "O que você diz nos primeiros dois segundos. Entra direto, com o mínimo de contexto: nada de apresentaçêo."
           ],
           "exemplo": {
             "rot": "Exemplo",
@@ -95,7 +95,7 @@
         {
           "titulo": "Texto",
           "texto": [
-            "Um resumo curtíssimo em destaque na tela. Quem não ouve a frase decide por ele."
+            "Um resumo curtíssimo em destaque na tela. Quem nêo ouve a frase decide por ele."
           ]
         },
         {
@@ -108,13 +108,13 @@
     },
     {
       "tipo": "codigo",
-      "titulo": "O portão do roteiro",
+      "titulo": "O portêo do roteiro",
       "sub": "Dois roteiros do kit: um que passa e um que reprova. A palavra-chave é \"gancho\".",
       "blocos": [
         {
           "rot": "Arquivo · kit/exemplos/a5-roteiros/fraco.md",
           "icone": "arquivo",
-          "conteudo": "# Roteiro fraco\n### FALA\nOlá pessoal, hoje eu vou mostrar para vocês uma coisa muito interessante sobre como fazer vídeos curtos que prendem a atenção das pessoas. O gancho tem três camadas: a frase, a cena e o texto. Fica até o fim que no final eu conto o segredo."
+          "conteudo": "# Roteiro fraco\n### FALA\nOlá pessoal, hoje eu vou mostrar para vocês uma coisa muito interessante sobre como fazer vídeos curtos que prendem a atençêo das pessoas. O gancho tem três camadas: a frase, a cena e o texto. Fica até o fim que no final eu conto o segredo."
         },
         {
           "rot": "Terminal · conferir os roteiros",
@@ -127,15 +127,15 @@
         "abas": [
           {
             "rot": "Saída capturada (19/10/2026)",
-            "html": "<pre>bom: 0\nfraco: 1\nRESULTADO: APROVADO (falta: teste da lacuna, tese, fontes — revisão humana)\n  ❌ gancho (palavras)        23 palavras: “Olá pessoal, hoje eu vou mostrar para vocês uma coisa muito interessante sobre c” (máx. 9)\n  ❌ abertura proibida        começa com “ola”\n  ❌ palavra-chave no início  “gancho” fora das primeiras 15 palavras (≈ 5 s)\nRESULTADO: REPROVADO</pre><p>O APROVADO do roteiro avisa o que a máquina não mede: se o gancho abre uma lacuna, se a tese toma lado, se os fatos têm fonte. Isso é com você.</p>"
+            "html": "<pre>bom: 0\nfraco: 1\nRESULTADO: APROVADO (falta: teste da lacuna, tese, fontes — revisêo humana)\n  ❌ gancho (palavras)        23 palavras: “Olá pessoal, hoje eu vou mostrar para vocês uma coisa muito interessante sobre c” (máx. 9)\n  ❌ abertura proibida        começa com “ola”\n  ❌ palavra-chave no início  “gancho” fora das primeiras 15 palavras (≈ 5 s)\nRESULTADO: REPROVADO</pre><p>O APROVADO do roteiro avisa o que a máquina nêo mede: se o gancho abre uma lacuna, se a tese toma lado, se os fatos têm fonte. Isso é com você.</p>"
           }
         ]
       }
     },
     {
       "tipo": "codigo",
-      "titulo": "O portão do vídeo",
-      "sub": "O bloco clona o makeshorts num commit fixo, faz um vídeo de ensaio de 20 s em 1080×1920 com som normalizado e roda o QA no perfil divulgação.",
+      "titulo": "O portêo do vídeo",
+      "sub": "O bloco clona o makeshorts num commit fixo, faz um vídeo de ensaio de 20 s em 1080×1920 com som normalizado e roda o QA no perfil divulgaçêo.",
       "blocos": [
         {
           "rot": "Terminal · QA de um short de ensaio",
@@ -153,11 +153,11 @@
         "abas": [
           {
             "rot": "Saída capturada (19/10/2026)",
-            "html": "<pre>saída: 0\n✅ duração                  20.0s\n✅ formato                  1080x1920\n✅ fps                      30.00\n✅ codec vídeo              h264\n✅ codec áudio              aac\n✅ loudness                 -13.9 LUFS\n✅ sem tela preta inicial   imagem desde o frame 0\n✅ frame 0 (informação)     0.063 de bordas\n⚠️  trechos parados          1 acima de 4 s: 0.0–20.0s — justificar ou quebrar\n⚠️  legendas                 não verificadas (passe --srt ou --words); reel sem legenda conferida não vai pro Nei\nRESULTADO: APROVADO (falta a revisão humana: gancho, prova, pronúncia)</pre><p>Os números (−13.9 LUFS, 0.063 de bordas) são desta máquina, ffmpeg 6.1.1; na sua podem variar um pouco. O que vale é a linha RESULTADO. O aviso de legendas cita o fluxo do Nei: no seu, passe <code>--srt</code>.</p>"
+            "html": "<pre>saída: 0\n✅ duraçêo                  20.0s\n✅ formato                  1080x1920\n✅ fps                      30.00\n✅ codec vídeo              h264\n✅ codec áudio              aac\n✅ loudness                 -13.9 LUFS\n✅ sem tela preta inicial   imagem desde o frame 0\n✅ frame 0 (informaçêo)     0.063 de bordas\n⚠️  trechos parados          1 acima de 4 s: 0.0–20.0s — justificar ou quebrar\n⚠️  legendas                 nêo verificadas (passe --srt ou --words); reel sem legenda conferida nêo vai pro Nei\nRESULTADO: APROVADO (falta a revisêo humana: gancho, prova, pronúncia)</pre><p>Os números (−13.9 LUFS, 0.063 de bordas) sêo desta máquina, ffmpeg 6.1.1; na sua podem variar um pouco. O que vale é a linha RESULTADO. O aviso de legendas cita o fluxo do Nei: no seu, passe <code>--srt</code>.</p>"
           },
           {
             "rot": "16:9 reprova (capturada)",
-            "html": "<pre>saída: 1\n❌ formato                  1920x1080\nRESULTADO: REPROVADO</pre><p>Só o formato reprovou: o resto do vídeo é igual. Um horizontal não vira short trocando o nome do arquivo.</p>"
+            "html": "<pre>saída: 1\n❌ formato                  1920x1080\nRESULTADO: REPROVADO</pre><p>Só o formato reprovou: o resto do vídeo é igual. Um horizontal nêo vira short trocando o nome do arquivo.</p>"
           }
         ]
       }
@@ -165,7 +165,7 @@
     {
       "tipo": "passos",
       "titulo": "Os três perfis do contrato",
-      "sub": "Duração em segundos e palavras da fala, de references/reel-profiles.json (contrato 1.2.1).",
+      "sub": "Duraçêo em segundos e palavras da fala, de references/reel-profiles.json (contrato 1.2.1).",
       "passos": [
         {
           "titulo": "divulgacao",
@@ -203,7 +203,7 @@
         "abas": [
           {
             "rot": "Saída capturada (19/10/2026)",
-            "html": "<pre>celular    celular — interface de telefone: notificação, busca, fila e enquete SIM/NÃO\ncracha     cracha — alvo, crachás carimbados e cédula; fundo grafite, acento vermelho\ndocumento  documento — papel datilografado, formulário em branco, carimbos e certificado\nextrato    extrato — nota fiscal / extrato bancário com borda picotada e carimbos\nversus     versus — editorial preto e branco com vermelho; foto x foto, telas divididas, chamadas em Anton\nestilo: versus\nmax_seg: 30          # a velocidade da fala é ajustada para caber (até 1,2x)</pre><p>O max_seg é teto: a fala é acelerada até 1,2× para caber e, se não couber, o motor falha em vez de cortar.</p>"
+            "html": "<pre>celular    celular — interface de telefone: notificaçêo, busca, fila e enquete SIM/NêO\ncracha     cracha — alvo, crachás carimbados e cédula; fundo grafite, acento vermelho\ndocumento  documento — papel datilografado, formulário em branco, carimbos e certificado\nextrato    extrato — nota fiscal / extrato bancário com borda picotada e carimbos\nversus     versus — editorial preto e branco com vermelho; foto x foto, telas divididas, chamadas em Anton\nestilo: versus\nmax_seg: 30          # a velocidade da fala é ajustada para caber (até 1,2x)</pre><p>O max_seg é teto: a fala é acelerada até 1,2× para caber e, se nêo couber, o motor falha em vez de cortar.</p>"
           }
         ]
       }
@@ -218,7 +218,7 @@
           "titulo": "E1 · QA do vídeo",
           "min": "5 min",
           "texto": "Rode \"QA de um short de ensaio\" e \"o mesmo QA num vídeo 16:9\".",
-          "pronto": "<code>RESULTADO: APROVADO (falta a revisão humana: gancho, prova, pronúncia)</code> com <code>saída: 0</code>, e depois <code>❌ formato                  1920x1080</code>, <code>RESULTADO: REPROVADO</code> e <code>saída: 1</code>."
+          "pronto": "<code>RESULTADO: APROVADO (falta a revisêo humana: gancho, prova, pronúncia)</code> com <code>saída: 0</code>, e depois <code>❌ formato                  1920x1080</code>, <code>RESULTADO: REPROVADO</code> e <code>saída: 1</code>."
         },
         {
           "id": "e2",
@@ -231,7 +231,7 @@
           "id": "e3",
           "titulo": "E3 · O seu gancho",
           "min": "15 min",
-          "texto": "Escreva <code>${TMPDIR:-/tmp}/ensaio-fabrica/a5/meu.md</code> com a seção <code>### FALA</code> de um short seu (60 a 125 palavras) e as três camadas do gancho anotadas fora da seção.",
+          "texto": "Escreva <code>${TMPDIR:-/tmp}/ensaio-fabrica/a5/meu.md</code> com a seçêo <code>### FALA</code> de um short seu (60 a 125 palavras) e as três camadas do gancho anotadas fora da seçêo.",
           "pronto": "<code>cd ${TMPDIR:-/tmp}/ensaio-fabrica/a5 && python3 makeshorts/.claude/skills/makeshorts/scripts/qa_roteiro.py meu.md --keyword [sua palavra]; echo \"saída: $?\"</code> → <code>RESULTADO: APROVADO</code> e <code>saída: 0</code>."
         }
       ]
@@ -239,10 +239,10 @@
     {
       "tipo": "quiz",
       "titulo": "Teste da aula",
-      "sub": "A explicação aparece depois da sua resposta.",
+      "sub": "A explicaçêo aparece depois da sua resposta.",
       "perguntas": [
         {
-          "p": "O qa_short.py aprovou o vídeo. O que ele NÃO conferiu?",
+          "p": "O qa_short.py aprovou o vídeo. O que ele NêO conferiu?",
           "opcoes": [
             "Se o vídeo tem 1080×1920.",
             "Se o som está em −14 LUFS.",
@@ -250,15 +250,15 @@
             "Se o gancho é bom."
           ],
           "certa": 3,
-          "explica": "O próprio RESULTADO diz: falta a revisão humana de gancho, prova e pronúncia. O que é mecânico do gancho fica no qa_roteiro.py; a qualidade, com você.",
+          "explica": "O próprio RESULTADO diz: falta a revisêo humana de gancho, prova e pronúncia. O que é mecânico do gancho fica no qa_roteiro.py; a qualidade, com você.",
           "ref": "codigo"
         },
         {
           "p": "Por que o qa_roteiro.py roda antes de gravar?",
           "opcoes": [
             "Porque ele precisa do vídeo pronto para conseguir medir.",
-            "Reprovar texto é de graça; render e avatar, não.",
-            "Porque o makeshorts não deixa gravar sem ele rodar antes.",
+            "Reprovar texto é de graça; render e avatar, nêo.",
+            "Porque o makeshorts nêo deixa gravar sem ele rodar antes.",
             "Porque ele escreve o roteiro do short por você."
           ],
           "certa": 1,
@@ -266,7 +266,7 @@
           "ref": "diagrama"
         },
         {
-          "p": "Seu gancho é \"Olá, hoje vou mostrar três truques de edição\". O que o portão diz?",
+          "p": "Seu gancho é \"Olá, hoje vou mostrar três truques de ediçêo\". O que o portêo diz?",
           "opcoes": [
             "Reprova por abertura proibida.",
             "Aprova, porque tem menos de 9 palavras.",
@@ -274,7 +274,7 @@
             "Reprova por falta de música."
           ],
           "certa": 0,
-          "explica": "Começar com \"olá\" ou \"hoje vou\" é abertura proibida no contrato: gasta os primeiros segundos com apresentação.",
+          "explica": "Começar com \"olá\" ou \"hoje vou\" é abertura proibida no contrato: gasta os primeiros segundos com apresentaçêo.",
           "ref": "codigo"
         },
         {
@@ -283,10 +283,10 @@
             "A frase falada no primeiro segundo.",
             "A trilha sonora de fundo.",
             "A cena e o texto do quadro zero.",
-            "A descrição do post na plataforma."
+            "A descriçêo do post na plataforma."
           ],
           "certa": 2,
-          "explica": "As três camadas disparam juntas, mas sem som só a cena e o texto chegam. Por isso a frase sozinha não basta.",
+          "explica": "As três camadas disparam juntas, mas sem som só a cena e o texto chegam. Por isso a frase sozinha nêo basta.",
           "ref": "passos"
         }
       ]
@@ -305,7 +305,7 @@
         },
         {
           "t": "Humano",
-          "texto": "a máquina mede formato e regra; lacuna, tese e fonte são com você."
+          "texto": "a máquina mede formato e regra; lacuna, tese e fonte sêo com você."
         }
       ]
     },
@@ -324,7 +324,7 @@
           "icone": "camadas"
         },
         {
-          "t": "Reel em 7 etapas e canal no automático (formação Do chat ao agente)",
+          "t": "Reel em 7 etapas e canal no automático (formaçêo Do chat ao agente)",
           "href": "https://linnoff88-dev.github.io/
           "icone": "megafone"
         }

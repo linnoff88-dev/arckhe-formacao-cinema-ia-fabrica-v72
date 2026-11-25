@@ -5,7 +5,7 @@
   "titulo": "O mapa da fábrica: do que você tem ao motor certo",
   "titulo_curto": "O mapa da fábrica",
   "minutos": 12,
-  "lead": "O ARCKHÉ tem um motor de vídeo para cada caso: explicativo, demonstração, documentário, short, publicação. Errar o motor custa horas. Nesta aula você transforma a tabela da área Vídeos num comando que responde qual usar, e prepara a máquina para as próximas sete aulas.",
+  "lead": "O ARCKHÉ tem um motor de vídeo para cada caso: explicativo, demonstraçêo, documentário, short, publicaçêo. Errar o motor custa horas. Nesta aula você transforma a tabela da área Vídeos num comando que responde qual usar, e prepara a máquina para as próximas sete aulas.",
   "objetivo": "escolher o motor certo para o que você tem e quer, com a tabela da área Vídeos virada em comando.",
   "competencias": [
     "escolher-motor",
@@ -19,7 +19,7 @@
     },
     {
       "icone": "portao",
-      "t": "O que todo motor tem em comum: entrada declarada e portão antes do crédito"
+      "t": "O que todo motor tem em comum: entrada declarada e portêo antes do crédito"
     },
     {
       "icone": "terminal",
@@ -27,7 +27,7 @@
     },
     {
       "icone": "seta",
-      "t": "Em que aula (ou curso irmão) cada motor aparece"
+      "t": "Em que aula (ou curso irmêo) cada motor aparece"
     }
   ],
   "hero_alt": "Parede escura com fichas brancas presas em forma de fluxograma, ligadas por barbantes que descem até uma mesa com monitores.",
@@ -47,7 +47,7 @@
           "icone": "alvo",
           "titulo": "Você quer",
           "sub": "a saída",
-          "detalhe": "Explicativo com avatar, demonstração, documentário, short 9:16, publicação no YouTube. A mesma entrada leva a motores diferentes conforme a saída."
+          "detalhe": "Explicativo com avatar, demonstraçêo, documentário, short 9:16, publicaçêo no YouTube. A mesma entrada leva a motores diferentes conforme a saída."
         },
         {
           "icone": "chip",
@@ -57,7 +57,7 @@
         },
         {
           "icone": "portao",
-          "titulo": "Portão",
+          "titulo": "Portêo",
           "sub": "antes do crédito",
           "detalhe": "Todo motor deste curso tem um ponto em que passaria a gastar crédito ou publicar. As práticas param ali, com a saída conferida."
         },
@@ -66,10 +66,10 @@
           "titulo": "Aula",
           "sub": "onde aprender",
           "forte": true,
-          "detalhe": "O comando da aula diz em que aula deste curso o motor aparece, ou que curso irmão é dono do assunto."
+          "detalhe": "O comando da aula diz em que aula deste curso o motor aparece, ou que curso irmêo é dono do assunto."
         }
       ],
-      "legenda": "A tabela é a da área Vídeos do ARCKHÉ (eventos.ARCKHÉ.pro/videos/, seção \"Por onde começar\"), lida em 19/10/2026."
+      "legenda": "A tabela é a da área Vídeos do ARCKHÉ (eventos.ARCKHÉ.pro/videos/, seçêo \"Por onde começar\"), lida em 19/10/2026."
     },
     {
       "tipo": "passos",
@@ -80,7 +80,7 @@
           "titulo": "Commit fixo",
           "texto": [
             "Os motores mudam toda semana. As práticas clonam cada um do GitHub e fazem checkout de um commit exato, o mesmo em que a saída da aula foi capturada.",
-            "Quando quiser a versão nova, troque o commit e rode o bloco de novo: se a saída mudar, você sabe que foi o motor."
+            "Quando quiser a versêo nova, troque o commit e rode o bloco de novo: se a saída mudar, você sabe que foi o motor."
           ]
         },
         {
@@ -91,10 +91,10 @@
           ]
         },
         {
-          "titulo": "Portão antes do crédito",
+          "titulo": "Portêo antes do crédito",
           "texto": [
-            "Avatar, vídeo gerado por IA e envio ao YouTube ficam do outro lado de um portão: aprovação humana, termo de consentimento, modo de ensaio.",
-            "Neste curso nada passa do portão. Você aprende a chegar até ele com tudo conferido."
+            "Avatar, vídeo gerado por IA e envio ao YouTube ficam do outro lado de um portêo: aprovaçêo humana, termo de consentimento, modo de ensaio.",
+            "Neste curso nada passa do portêo. Você aprende a chegar até ele com tudo conferido."
           ],
           "exemplo": {
             "rot": "Exemplo",
@@ -124,7 +124,7 @@
         "abas": [
           {
             "rot": "Saída capturada (19/10/2026)",
-            "html": "<pre>git     ok\npython3 ok\nnode    ok\nffmpeg  ok\nv24.13.0\nffmpeg version 6.1.1-3ubuntu5\nPython 3.12.3</pre><p>As versões são as desta máquina. Qualquer Node 22+ e FFmpeg 6+ servem; a linha que importa é <code>ok</code> nas quatro ferramentas.</p>"
+            "html": "<pre>git     ok\npython3 ok\nnode    ok\nffmpeg  ok\nv24.13.0\nffmpeg version 6.1.1-3ubuntu5\nPython 3.12.3</pre><p>As versões sêo as desta máquina. Qualquer Node 22+ e FFmpeg 6+ servem; a linha que importa é <code>ok</code> nas quatro ferramentas.</p>"
           },
           {
             "rot": "Se aparecer FALTA",
@@ -149,14 +149,14 @@
         "abas": [
           {
             "rot": "Saída capturada (19/10/2026)",
-            "html": "<pre>frase         clipe        → musicavideo (fora deste curso (guia da área Vídeos))\nvideo-pronto  publicar     → yt-pubx (aula 8)\n14 linhas\nShort ou reel 9:16 com gancho\nUse: MakeShorts ou cardshorts · aprender: aula 5\nsaída: 0\nSEM MOTOR: com 'tema' a tabela tem: explicativo, documentario, short\nsaída: 1</pre><p>Combinação que não está na tabela sai com <code>SEM MOTOR</code> e código 1, listando o que existe para aquela entrada. Use <code>--lista</code> para ver as 14 linhas.</p>"
+            "html": "<pre>frase         clipe        → musicavideo (fora deste curso (guia da área Vídeos))\nvideo-pronto  publicar     → yt-pubx (aula 8)\n14 linhas\nShort ou reel 9:16 com gancho\nUse: MakeShorts ou cardshorts · aprender: aula 5\nsaída: 0\nSEM MOTOR: com 'tema' a tabela tem: explicativo, documentario, short\nsaída: 1</pre><p>Combinaçêo que nêo está na tabela sai com <code>SEM MOTOR</code> e código 1, listando o que existe para aquela entrada. Use <code>--lista</code> para ver as 14 linhas.</p>"
           }
         ]
       }
     },
     {
       "tipo": "passos",
-      "titulo": "Os motores deste curso e os que ficam com os irmãos",
+      "titulo": "Os motores deste curso e os que ficam com os irmêos",
       "sub": "O mapa cobre mais do que este curso ensina. Siga o link certo.",
       "passos": [
         {
@@ -166,15 +166,15 @@
           ]
         },
         {
-          "titulo": "Nos irmãos",
+          "titulo": "Nos irmêos",
           "texto": [
             "Filme com fotos e câmera 2.5D e anúncio UGC: <a href=\"https://linnoff88-dev.github.io/ 2</a>. Filme da marca a partir do site: curso 5. HyperFrames e Remotion por dentro: curso 3."
           ]
         },
         {
-          "titulo": "Em outra formação",
+          "titulo": "Em outra formaçêo",
           "texto": [
-            "Reel em 7 etapas, esteira de canal e agenda de publicação são da formação Do chat ao agente: <a href=\"https://linnoff88-dev.github.io/ de redes no automático</a>."
+            "Reel em 7 etapas, esteira de canal e agenda de publicaçêo sêo da formaçêo Do chat ao agente: <a href=\"https://linnoff88-dev.github.io/ de redes no automático</a>."
           ]
         }
       ]
@@ -210,7 +210,7 @@
     {
       "tipo": "quiz",
       "titulo": "Teste da aula",
-      "sub": "A explicação aparece depois da sua resposta.",
+      "sub": "A explicaçêo aparece depois da sua resposta.",
       "perguntas": [
         {
           "p": "Você tem o link do seu app e quer mostrar como se usa. Qual motor?",
@@ -221,7 +221,7 @@
             "yt-pubx, que publica o vídeo no YouTube."
           ],
           "certa": 2,
-          "explica": "A linha \"O link do seu app → Demonstração narrada, clique a clique\" aponta o video-demonstrativo (aula 3). O explicavideos parte de um tema, não de um app no ar.",
+          "explica": "A linha \"O link do seu app → Demonstraçêo narrada, clique a clique\" aponta o video-demonstrativo (aula 3). O explicavideos parte de um tema, nêo de um app no ar.",
           "ref": "codigo"
         },
         {
@@ -229,35 +229,35 @@
           "opcoes": [
             "Para a saída da aula continuar valendo.",
             "Porque o GitHub só deixa clonar commits antigos de repositórios públicos.",
-            "Para não precisar instalar Python, Node nem FFmpeg na máquina.",
-            "Porque a versão mais nova de todos os motores gasta crédito sozinha."
+            "Para nêo precisar instalar Python, Node nem FFmpeg na máquina.",
+            "Porque a versêo mais nova de todos os motores gasta crédito sozinha."
           ],
           "certa": 0,
           "explica": "Os motores mudam toda semana. Com o commit fixo, o bloco dá a mesma saída capturada; se mudar depois que você trocar o commit, a diferença veio do motor.",
           "ref": "passos"
         },
         {
-          "p": "O que é o \"portão antes do crédito\" neste curso?",
+          "p": "O que é o \"portêo antes do crédito\" neste curso?",
           "opcoes": [
-            "Um botão de pagamento que cada motor mostra antes de rodar.",
+            "Um botêo de pagamento que cada motor mostra antes de rodar.",
             "O ponto onde o motor gastaria crédito ou publicaria.",
             "Uma etapa que só existe no yt-pubx, antes do envio.",
             "O limite de memória que o systemd põe no render."
           ],
           "certa": 1,
-          "explica": "Avatar, vídeo gerado por IA e envio ao YouTube ficam depois de um portão (aprovação, termo, modo de ensaio). As práticas chegam até ele com a saída conferida e param.",
+          "explica": "Avatar, vídeo gerado por IA e envio ao YouTube ficam depois de um portêo (aprovaçêo, termo, modo de ensaio). As práticas chegam até ele com a saída conferida e param.",
           "ref": "diagrama"
         },
         {
-          "p": "Você quer um reel em 7 etapas com agenda de publicação. Onde aprender?",
+          "p": "Você quer um reel em 7 etapas com agenda de publicaçêo. Onde aprender?",
           "opcoes": [
             "Na aula 5 deste curso, que trata de shorts.",
-            "Na aula 8 deste curso, que trata de publicação.",
-            "No curso 2 da formação, o de produção.",
+            "Na aula 8 deste curso, que trata de publicaçêo.",
+            "No curso 2 da formaçêo, o de produçêo.",
             "No curso de redes do Do chat ao agente."
           ],
           "certa": 3,
-          "explica": "O reel em 7 etapas e a esteira de canal são donos do do-chat-ao-agente-redes-v72. Aqui, a aula 5 cuida só do gancho e do portão de qualidade do short.",
+          "explica": "O reel em 7 etapas e a esteira de canal sêo donos do do-chat-ao-agente-redes-v72. Aqui, a aula 5 cuida só do gancho e do portêo de qualidade do short.",
           "ref": "passos"
         }
       ]
@@ -275,7 +275,7 @@
           "texto": "cada prática clona o motor num commit exato para a saída valer."
         },
         {
-          "t": "Portão",
+          "t": "Portêo",
           "texto": "a prática para onde o motor gastaria crédito ou publicaria."
         }
       ]
