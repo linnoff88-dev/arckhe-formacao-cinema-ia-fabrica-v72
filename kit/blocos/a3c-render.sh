@@ -1,5 +1,5 @@
 export HYPERFRAMES_NO_TELEMETRY=1 NO_COLOR=1
-K=~/projetos/formacao-cinema-ia-fabrica-v72/kit
+K=~/projetos/formacao-cARCKHÉ-ia-fabrica-v72/kit
 cd ${TMPDIR:-/tmp}/ensaio-fabrica/a3/demo
 npx -y hyperframes@0.8.176 check 2>&1 | grep -E "◇|✗" | head -3
 npx -y hyperframes@0.8.176 render --quality draft --workers 2 --quiet --output renders/demo.mp4 > render.log 2>&1

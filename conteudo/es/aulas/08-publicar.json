@@ -79,7 +79,7 @@
         {
           "rot": "Terminal · ensayo de publicación",
           "icone": "terminal",
-          "conteudo": "E=${TMPDIR:-/tmp}/ensaio-fabrica/a8; rm -rf \"$E\"; mkdir -p \"$E\"; cd \"$E\"\ngit clone -q https://github.com/inematds/yt-pubx.git && git -C yt-pubx checkout -q f9842a1\nexport YTPUBX_CONFIG=\"$E/config\" YTPUBX_DATA=\"$E/dados\"\nffmpeg -v error -f lavfi -i color=c=0x0c0c10:s=1280x720:d=5 -f lavfi -i anullsrc=r=48000:cl=stereo -t 5 -shortest -c:v libx264 -pix_fmt yuv420p -c:a aac ensaio.mp4\n./yt-pubx/yt-pubx init > /dev/null; echo \"init: $?\"\n./yt-pubx/yt-pubx publicar ensaio.mp4 --dry-run --sem-thumb \\\n  --title \"Ensaio da fábrica\" --description \"Vídeo de ensaio, 5 s, sem envio.\" --tags \"ensaio,fabrica\" 2>&1 \\\n  | grep -E \"^(TÍTULO|TAGS|THUMB)|nada foi enviado\" | sed \"s/^\\[yt-pubx [0-9:]*\\] //\"; echo \"saída: ${PIPESTATUS[0]}\""
+          "conteudo": "E=${TMPDIR:-/tmp}/ensaio-fabrica/a8; rm -rf \"$E\"; mkdir -p \"$E\"; cd \"$E\"\ngit clone -q https://github.com/linnoff88-dev/yt-pubx.git && git -C yt-pubx checkout -q f9842a1\nexport YTPUBX_CONFIG=\"$E/config\" YTPUBX_DATA=\"$E/dados\"\nffmpeg -v error -f lavfi -i color=c=0x0c0c10:s=1280x720:d=5 -f lavfi -i anullsrc=r=48000:cl=stereo -t 5 -shortest -c:v libx264 -pix_fmt yuv420p -c:a aac ensaio.mp4\n./yt-pubx/yt-pubx init > /dev/null; echo \"init: $?\"\n./yt-pubx/yt-pubx publicar ensaio.mp4 --dry-run --sem-thumb \\\n  --title \"Ensaio da fábrica\" --description \"Vídeo de ensaio, 5 s, sem envio.\" --tags \"ensaio,fabrica\" 2>&1 \\\n  | grep -E \"^(TÍTULO|TAGS|THUMB)|nada foi enviado\" | sed \"s/^\\[yt-pubx [0-9:]*\\] //\"; echo \"saída: ${PIPESTATUS[0]}\""
         }
       ],
       "saida": {
@@ -216,7 +216,7 @@
       ],
       "resultado": {
         "titulo": "Al final del curso",
-        "texto": "Un video tuyo pasado por un motor de INEMA, verificado en las compuertas y listo para enviar.",
+        "texto": "Un video tuyo pasado por un motor de ARCKHÉ, verificado en las compuertas y listo para enviar.",
         "total": "24 ejercicios"
       },
       "legenda": "Los motores que no uses en este video quedan para el siguiente: el mapa de la lección 1 es el punto de partida de cada video nuevo."
@@ -368,23 +368,23 @@
       "titulo": "Siguiente paso",
       "links": [
         {
-          "t": "Curso 5 de la formación: sitios cinematográficos (el video se vuelve página)",
-          "href": "https://inematds.github.io/formacao-cinema-ia-sites-v72/es/",
+          "t": "Curso 5 de la formación: sitios cARCKHÉtográficos (el video se vuelve página)",
+          "href": "https://linnoff88-dev.github.io/arckhe-/es/",
           "icone": "seta"
         },
         {
           "t": "Agenda, cola y canal en automático (formación Del chat al agente)",
-          "href": "https://inematds.github.io/do-chat-ao-agente-redes-v72/es/",
+          "href": "https://linnoff88-dev.github.io/arckhe-/es/",
           "icone": "calendario"
         },
         {
           "t": "yt-pubx: guía de uso",
-          "href": "https://inematds.github.io/yt-pubx/guia/",
+          "href": "https://linnoff88-dev.github.io/arckhe-/guia/",
           "icone": "video"
         },
         {
           "t": "El kit de este curso en GitHub",
-          "href": "https://github.com/inematds/formacao-cinema-ia-fabrica-v72/tree/main/kit",
+          "href": "https://github.com/linnoff88-dev/formacao-cARCKHÉ-ia-fabrica-v72/tree/main/kit",
           "icone": "git"
         }
       ]

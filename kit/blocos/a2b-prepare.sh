@@ -1,4 +1,4 @@
-K=~/projetos/formacao-cinema-ia-fabrica-v72/kit
+K=~/projetos/formacao-cARCKHÉ-ia-fabrica-v72/kit
 E=${TMPDIR:-/tmp}/ensaio-fabrica/a2; cd "$E/explicavideos"
 cat > "$E/ensaio.json" <<FIM
 {"id": "ensaio", "title": "Ensaio", "source_repo": "$E", "output": "$E/saida",
